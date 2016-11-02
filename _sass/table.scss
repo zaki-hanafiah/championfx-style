@@ -1,7 +1,7 @@
 table
 {
     border-collapse: collapse;
-    font-size: 0.9em;
+    font-size: 1rem;
     line-height: 1.5em;
     width: 100%;
     .even {
@@ -13,7 +13,7 @@ table
     thead, th {
         line-height: 1.1em;
         font-weight: bold;
-        padding: 3px 8px;
+        padding: 1.2rem .2rem;
         background: $fillColor;
         border-bottom: 1px solid $fillColor;
         vertical-align: middle;
@@ -30,7 +30,7 @@ table
     td {
         vertical-align: top;
         border-width: 0 1px;
-        padding: 4px 4px;
+        padding: 1.2rem 0;
         border-bottom: 3px solid $fillColor;
         &.num {
             text-align: center;
@@ -44,3 +44,12 @@ table
         }
     }
 }
+.champion-features td {border-bottom:none;}
+.td-highlight {border-left: 2px solid  #0D4781; border-right: 2px solid  #0D4781; border-bottom: 1px solid  $fx-BorderColor!important; text-align:center; width:30%; padding:10px;}
+.td-info {border-left: 1px solid  $fx-BorderColor!important; border-right: 1px solid  $fx-BorderColor; border-bottom: 1px solid  $fx-BorderColor!important; text-align:center; width:30%; padding:10px;}
+.td-devider {width:2%; border-bottom: 1px solid  $fx-BorderColor!important;}
+.td-title {width:40%; border-bottom: 1px solid  $fx-BorderColor!important;}
+.td-highlight-title {border-left: 2px solid  #0D4781; border-top: 2px solid  #0D4781; border-right: 2px solid  #0D4781; background-color:$fillColor; text-align:center;}
+.td-highlight-last {border-left: 2px solid  #0D4781; border-bottom: 2px solid  #0D4781!important; border-right: 2px solid  #0D4781; text-align:center;}
+.td-info-title {border-left: 1px solid  $fx-BorderColor!important; border-right: 1px solid  $fx-BorderColor; background-color:$fillColor; text-align:center;}
+.td-info-last {border-left: 1px solid  $fx-BorderColor!important; border-bottom: 1px solid  $fx-BorderColor!important; border-right: 1px solid  $fx-BorderColor; text-align:center;}
