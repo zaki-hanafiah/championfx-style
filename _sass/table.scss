@@ -44,3 +44,54 @@ table
         }
     }
 }
+    .champion-features td {
+	    border-bottom:none;
+		vertical-align:middle;
+	}
+    .td-highlight {
+	    border-left: 2px solid  $primaryBrandColor; 
+		border-right: 2px solid  $primaryBrandColor; 
+		border-bottom: 1px solid  $fx-BorderColor!important; 
+		text-align:center; width:30%; 
+		padding:10px;
+		}
+    .td-info {
+		border-left: 1px solid  $fx-BorderColor!important; 
+		border-right: 1px solid  $fx-BorderColor; 
+		border-bottom: 1px solid  $fx-BorderColor!important; 
+		text-align:center; width:30%; 
+		padding:10px;
+	}
+	.td-devider {
+		width:2%; 
+		border-bottom: 1px solid  $fx-BorderColor!important;
+	}
+	.td-title {
+		width:40%; 
+		border-bottom: 1px solid  $fx-BorderColor!important;
+	}
+	.td-highlight-title {
+		border-left: 2px solid  $primaryBrandColor; 
+		border-top: 2px solid  $primaryBrandColor; 
+		border-right: 2px solid  $primaryBrandColor; 
+		background-color:$fillColor; 
+		text-align:center;
+	}
+	.td-highlight-last {
+		border-left: 2px solid  $primaryBrandColor; 
+		border-bottom: 2px solid  $primaryBrandColor!important; 
+		border-right: 2px solid  $primaryBrandColor; 
+		text-align:center;
+	}
+	.td-info-title {
+		border-left: 1px solid  $fx-BorderColor!important; 
+		border-right: 1px solid  $fx-BorderColor; 
+		background-color:$fillColor; 
+		text-align:center;
+	}
+	.td-info-last {
+		border-left: 1px solid  $fx-BorderColor!important; 
+		border-bottom: 1px solid  $fx-BorderColor!important; 
+		border-right: 1px solid  $fx-BorderColor; 
+		text-align:center;
+	}

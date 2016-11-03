@@ -8,10 +8,13 @@
     font-weight: 400;
     font-family: inherit;
     border-radius: $BORDER_RADIUS;
-    box-shadow: $BOX_SHADOW;
+    box-shadow: $z-depth-1;
+	transition: box-shadow .25s;
     &:active,
     &:hover {
         text-decoration: none;
+		box-shadow: $z-depth-3;
+	    transition: box-shadow .25s;
     }
 }
 button {
@@ -20,8 +23,7 @@ button {
     font-size: $FONT_SIZE_N;
     border: 0;
     background: $positiveColor;
-    color: $contentInverseColor;
-	
+    color: $contentInverseColor;	
     &:visited {
         color: $contentInverseColor;
     }
@@ -57,11 +59,11 @@ button {
         color: $black;
         background: $white;
 		border: 1px solid $fillColor;
-        border-radius: $BORDER_RADIUS;
-        box-shadow: $BOX_SHADOW;
+        border-radius: $BORDER_RADIUS;       
         &:hover {
             text-decoration: none;
             background: $borderColor;
+			border: 1px solid $borderColor;
         }
     }
 }
@@ -78,7 +80,7 @@ button {
         color: $borderColor;
         background: $fillColor;
         cursor: default;
-		 box-shadow: none!important;
+		box-shadow: none!important;
         &:active,
         &:hover {
             color: $borderColor;
