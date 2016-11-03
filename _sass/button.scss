@@ -13,7 +13,7 @@
     &:active,
     &:hover {
         text-decoration: none;
-		box-shadow: $z-depth-3;
+		box-shadow: $z-depth-1-half;
 	    transition: box-shadow .25s;
     }
 }
@@ -62,8 +62,8 @@ button {
         border-radius: $BORDER_RADIUS;       
         &:hover {
             text-decoration: none;
-            background: $borderColor;
-			border: 1px solid $borderColor;
+            background: $secondaryContentColor;
+			border: 1px solid $secondaryContentColor;
         }
     }
 }
