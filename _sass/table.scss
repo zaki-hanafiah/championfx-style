@@ -51,24 +51,24 @@ table
     .td-highlight {
 	    border-left: 2px solid  $primaryBrandColor; 
 		border-right: 2px solid  $primaryBrandColor; 
-		border-bottom: 1px solid  $fx-BorderColor!important; 
+		border-bottom: 1px solid  $borderColor!important; 
 		text-align:center; width:30%; 
 		padding:10px;
 		}
     .td-info {
-		border-left: 1px solid  $fx-BorderColor!important; 
-		border-right: 1px solid  $fx-BorderColor; 
-		border-bottom: 1px solid  $fx-BorderColor!important; 
+		border-left: 1px solid  $borderColor!important; 
+		border-right: 1px solid  $borderColor; 
+		border-bottom: 1px solid  $borderColor!important; 
 		text-align:center; width:30%; 
 		padding:10px;
 	}
 	.td-devider {
 		width:2%; 
-		border-bottom: 1px solid  $fx-BorderColor!important;
+		border-bottom: 1px solid  $borderColor!important;
 	}
 	.td-title {
 		width:40%; 
-		border-bottom: 1px solid  $fx-BorderColor!important;
+		border-bottom: 1px solid  $borderColor!important;
 	}
 	.td-highlight-title {
 		border-left: 2px solid  $primaryBrandColor; 
@@ -84,14 +84,14 @@ table
 		text-align:center;
 	}
 	.td-info-title {
-		border-left: 1px solid  $fx-BorderColor!important; 
-		border-right: 1px solid  $fx-BorderColor; 
+		border-left: 1px solid  $borderColor!important; 
+		border-right: 1px solid  $borderColor; 
 		background-color:$fillColor; 
 		text-align:center;
 	}
 	.td-info-last {
-		border-left: 1px solid  $fx-BorderColor!important; 
-		border-bottom: 1px solid  $fx-BorderColor!important; 
-		border-right: 1px solid  $fx-BorderColor; 
+		border-left: 1px solid  $borderColor!important; 
+		border-bottom: 1px solid  $borderColor!important; 
+		border-right: 1px solid  $borderColor; 
 		text-align:center;
 	}
