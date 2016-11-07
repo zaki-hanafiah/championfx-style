@@ -15,14 +15,14 @@ select, input, textarea {
     margin-top: 3px
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: $secondaryContentColor;
+    color: $secondaryContentColor;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: $secondaryContentColor;
+    color: $secondaryContentColor;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: $secondaryContentColor;
+    color: $secondaryContentColor;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: $secondaryContentColor;
+    color: $secondaryContentColor;
 }

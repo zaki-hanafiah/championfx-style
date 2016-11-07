@@ -14,21 +14,20 @@ p {
     line-height: 1.4em;
 }
 .font-n{
-  font-size: $FONT_SIZE_N;
+    font-size: $FONT_SIZE_N;
 }
 .font-s{
-  font-size: $FONT_SIZE_S;
+    font-size: $FONT_SIZE_S;
 }
 .font-xs{
-  font-size: $FONT_SIZE_XS;
+    font-size: $FONT_SIZE_XS;
 }
 h1 {
     color: $secondaryBrandColor;
     font-size: 2.2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-	font-weight: 400;
-    
+	font-weight: 400;   
     a {
         color: $secondaryBrandColor !important;
     }
@@ -68,8 +67,7 @@ h4 {
     margin-bottom: .6rem;
     a {
         color: $contentColor !important;
-    }
-   
+    }  
 }
 
 h5, .h5 {
@@ -82,7 +80,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 	color: $contentColor;
 	font-size: 1rem;
 	font-weight: 400;
