@@ -19,13 +19,13 @@
     </div>
     <div id="header" class="dark-blue">
         <div class="container">
-            <div style="display: inline-flex;">
-                <a href="https://binary.com" style="display: inline-flex;padding: 10px 0;">
-                    <div id="logo">
-                        <img class="responsive" src="https://www.binary.com/images/pages/binary-symbol-logo.svg">
+            <div class="logo-wrapper">
+                <a href="https://binary.com" class="logo-parent">
+                    <div class="logo">
+                        <img class="responsive" src="./images/logo/symbol.svg">
                     </div>
-                    <div id="binary-logo-text" style="display:inline-block;" class="mobile-hide">
-                        <img class="responsive" src="https://www.binary.com/images/pages/binary-type-logo.svg" style="width:80%;">
+                    <div class="mobile-hide binary-logo-text">
+                        <img class="responsive" src="./images/logo/type.svg">
                     </div>
                 </a>
             </div>
@@ -60,7 +60,45 @@
         <div class="f-row">
             <div class="f-item" style="margin-top:40px;">
                 <p>
-                    <h2>Headings</h2></p>
+                    <h1 class="h1-title">Logo</h1></p>
+            </div>
+        </div>
+        <div class="f-row">
+            <div class="f-item" style="margin-top: 19px;">
+                <div class="logo-wrapper primary-color">
+                    <a class="logo-parent" href="https://binary.com">
+                        <div class="logo">
+                            <img class="responsive" src="./images/logo/symbol.svg">
+                        </div>
+                        <div class="mobile-hide binary-logo-text">
+                            <img class="responsive" src="./images/logo/type.svg">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="f-item">
+                <div class="code-sample">
+                    <pre class="prettyprint">
+            <code>
+    &lt;a class=&quot;logo-parent&quot; href=&quot;https://binary.com&quot;&gt;
+        &lt;div class=&quot;logo&quot;&gt;
+            &lt;img class=&quot;responsive&quot;
+                src=&quot;./images/logo/symbol.svg&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mobile-hide binary-logo-text&quot;&gt;
+            &lt;img class=&quot;responsive&quot;
+                src=&quot;./images/logo/type.svg&quot;&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+          </code>
+        </pre>
+                </div>
+            </div>
+        </div>
+        <div class="f-row">
+            <div class="f-item" style="margin-top:40px;">
+                <p>
+                    <h1 class="h1-title">Title</h1></p>
             </div>
         </div>
         <div class="f-row">
@@ -86,7 +124,7 @@
             <div class="f-item" style="margin-top:40px;">
                 <h2>Text Formatting</h2>
             </div>
-        </div>		
+        </div>
         <div class="f-row">
             <div class="f-item">
                 <p>paragraph with <strong>strong text</strong></p>
@@ -147,7 +185,7 @@
         </div>
 		<div id="" class="code--info--separator"></div>
         <div class="f-row">
-		
+
             <div class="f-item" style="margin-top:40px;">
                 <h2>Link and Buttons</h2>
             </div>
@@ -236,12 +274,63 @@
             </pre>
                 </div>
             </div>
-        </div>		
-		
-        
+        </div>
+
+
 
 		<div id="" class="code--info--separator"></div>
-		
+
+        <div class="f-row">
+            <div class="f-item" style="margin-top:40px;">
+                <h1 class="h1-title">Spinner</h1>
+            </div>
+        </div>
+        <div class="f-row">
+            <div class="f-item">
+                <p>use over a transparent background:</p>
+                <div class="barspinner dark">
+                    <div class="rect1"></div>
+                    <div class="rect2"></div>
+                    <div class="rect3"></div>
+                    <div class="rect4"></div>
+                    <div class="rect5"></div>
+                </div>
+                <p>use over a dark background:</p>
+                <div class="primary-bg-color" style="padding: 20px;">
+                    <div class="barspinner white">
+                        <div class="rect1"></div>
+                        <div class="rect2"></div>
+                        <div class="rect3"></div>
+                        <div class="rect4"></div>
+                        <div class="rect5"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-item">
+                <div class="code-sample">
+                    <pre class="prettyprint">
+                <code>
+    &lt;p&gt;use over a transparent background:&lt;/p&gt;
+    &lt;div class=&quot;barspinner dark&quot;&gt;
+        &lt;div class=&quot;rect1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;rect2&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;rect3&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;rect4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;rect5&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;use over a dark background:&lt;/p&gt;
+    &lt;div class=&quot;barspinner white&quot;&gt;
+        &lt;div class=&quot;rect1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;rect2&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;rect3&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;rect4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;rect5&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+              </code>
+            </pre>
+                </div>
+            </div>
+        </div>
         <div class="f-row">
             <div class="f-item">
                 <h2>Table</h2>
