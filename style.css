@@ -52,10 +52,11 @@ img.responsive{
 }
 .code-sample {
   margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem; 
 }
 .code-sample code{
   margin-bottom: 0;
+
 }
 .f-demo {
   padding: 5px;
@@ -70,11 +71,13 @@ img.responsive{
 
 pre.prettyprint {
   display: block;
-  background-color: #333
+  background-color: #333;
+  padding-left:10px;
 }
 pre .nocode {
   background-color: none;
-  color: #000
+  color: #000;
+  text-align:left;
 }
 pre .str {
   color: #ffa0a0
@@ -324,3 +327,6 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {}
         width: 100%;
     }
 }
+
+/* Champion */
+.code--info--separator {border-top:1px solid #ccc; margin:20px 0; font-size: 24px; padding-top:0px; font-weight:400; color: #ccc; letter-spacing:6px; text-align:right; text-transform:uppercase;}

@@ -2,47 +2,44 @@ body
 {
     font-family: $FONT-STACK;
     font-size: $FONT_SIZE_N;
-
     position: relative;
-
     min-height: 100%;
     margin: 0;
     padding: 0;
-
     color: $contentColor;
     background: $contentInverseColor;
     background-repeat: repeat-x;
     background-position: bottom;
 }
 i {
-  font-style: italic;
+    font-style: italic;
 }
 .primary-color{
-  background-color:$primaryBrandColor;
+    background-color:$primaryBrandColor;
 }
 .primary-bg-color{
-  background-color:$primaryBrandColor;
+    background-color:$primaryBrandColor;
 }
 .secondary-color{
-  color:$secondaryBrandColor;
+    color:$secondaryBrandColor;
 }
 .secondary-bg-color{
-  background-color:$secondaryBrandColor;
+    background-color:$secondaryBrandColor;
 }
 .primary-color-dark{
-  background-color:$darkPrimaryBrandColor;
+    background-color:$darkPrimaryBrandColor;
 }
 .primary-bg-color-dark{
-  background-color:$darkPrimaryBrandColor;
+    background-color:$darkPrimaryBrandColor;
 }
 .content-inverse-color{
-  color:$contentInverseColor;
+    color:$contentInverseColor;
 }
 .fill-bg-color{
-  background-color: $fillColor;
+    background-color: $fillColor;
 }
 .border-color{
-  color:$borderColor;
+    color:$borderColor;
 }
 ol,
 ul
@@ -59,7 +56,7 @@ ol
 }
 ul.bullet li
 {
-    list-style-image: svg-url('<svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path fill="#{rgba($secondaryBrandColor, 1)}" d="M12,17.5A5.5,5.5,0,1,1,17.5,12,5.507,5.507,0,0,1,12,17.5Zm0-9A3.5,3.5,0,1,0,15.5,12,3.5,3.5,0,0,0,12,8.5Z"/></svg>');
+    list-style-image: svg-url('<svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path fill="#{rgba($primaryBrandColor, 1)}" d="M12,17.5A5.5,5.5,0,1,1,17.5,12,5.507,5.507,0,0,1,12,17.5"/></svg>');
 }
 ol,
 ul
@@ -67,7 +64,6 @@ ul
     li
     {
         line-height: 1.4em;
-
         margin: .5em 0 0;
         ol,
         ul
@@ -84,7 +80,6 @@ ol li
 img
 {
     vertical-align: middle;
-
     border: 0;
 }
 ul.checked
@@ -93,7 +88,6 @@ ul.checked
     {
         min-height: 24px;
         padding-left: 35px;
-
         background: svg-url('<svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon fill="#{rgba($secondaryBrandColor, 1)}" points="8.308 22.298 0.399 14.39 3.934 10.854 8.308 15.228 20.066 3.47 23.601 7.005 8.308 22.298"/></svg>') no-repeat;
     }
 }
@@ -114,7 +108,7 @@ ul.checked
     border-bottom: 1px solid $borderColor;
 }
 .contract_error{
-  background-color: $noticeColor !important;
+    background-color: $noticeColor !important;
 }
 //header
 header,
@@ -126,15 +120,15 @@ header,
     background: $primaryBrandColor;
 }
 #header a {
-  color: $contentInverseColor;
-  text-decoration: none;
+    color: $contentInverseColor;
+    text-decoration: none;
 }
 #header li.active a {
-  color: $secondaryBrandColor;
+    color: $secondaryBrandColor;
 }
 //footer rules
 #footer a {
-  font-size: $FONT_SIZE_S;
-  font-weight: 400;
-  color: $contentInverseColor;
+    font-size: $FONT_SIZE_S;
+    font-weight: 400;
+    color: $contentInverseColor;
 }

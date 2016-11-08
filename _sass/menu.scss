@@ -13,7 +13,6 @@
         }
     }
 }
-
 .main-nav {
     width: 165px;
     border: 1px solid $primaryBrandColor;
@@ -54,7 +53,6 @@
         right: -68px;
     }
 }
-
 .nav-caret {
     vertical-align: middle;
     border-top: 4px dashed;
@@ -62,7 +60,6 @@
     border-left: 4px solid transparent;
     display: inline-block;
 }
-
 #all-accounts, #all-accounts-top {
     background-color: $fillColor;
     border: 1px solid $borderColor;
@@ -73,7 +70,6 @@
         color: $contentColor;
     }
 }
-
 #main-logout, #logout-top {
     position: relative;
     height: 75px;
@@ -81,7 +77,6 @@
     width: 165px;
     float: right;
 }
-
 .separator-line-thin-gray {
     border-top: 1px solid $borderColor;
 }

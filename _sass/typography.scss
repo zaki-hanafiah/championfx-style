@@ -14,25 +14,29 @@ p {
     line-height: 1.4em;
 }
 .font-n{
-  font-size: $FONT_SIZE_N;
+    font-size: $FONT_SIZE_N;
 }
 .font-s{
-  font-size: $FONT_SIZE_S;
+    font-size: $FONT_SIZE_S;
 }
 .font-xs{
-  font-size: $FONT_SIZE_XS;
+    font-size: $FONT_SIZE_XS;
 }
 h1 {
-    font-size: 36px;
-    font-weight: 300;
-    color: $secondaryBrandColor;
+    color: $primaryBrandColor;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+	font-weight: 400;   
     a {
-        color: $secondaryBrandColor !important;
+        color: $primaryBrandColor !important;
     }
 }
 h2 {
-    font-size: 28px;
-    color: $secondaryBrandColor;
+    color: $primaryBrandColor;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    margin-bottom: .8rem;    
     font-weight: 300;
     a {
         color: $primaryBrandColor !important;
@@ -46,17 +50,38 @@ h2 {
     }
 }
 h3 {
-    color: $primaryBrandColor;
-    font-size: 22px;
+    color: $contentColor;
+    font-size: 1.65rem;
     font-weight: 300;
+	margin-top: 1rem;
+    margin-bottom: .6rem;
     a {
         color: $primaryBrandColor !important;
     }
 }
 h4 {
     color: $contentColor;
+	font-size: 1.45rem;
+	font-weight: 400;
+	margin-top: 1rem;
+    margin-bottom: .6rem;
     a {
-        color: $contentColor !important;
-    }
-    font-size: 18px;
+        color: $primaryBrandColor !important;
+    }  
+}
+h5, .h5 {
+	font-size: 1.25rem;
+	color: $contentColor;
+	font-size: 1.25rem;
+	font-weight: 400;
+	margin-top: 1rem;
+	margin-bottom: .6rem;
+}
+h6, .h6 {
+    font-size: 1.25rem;
+	color: $contentColor;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-top: 1rem;
+	margin-bottom: .6rem;
 }
