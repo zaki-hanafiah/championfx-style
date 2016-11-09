@@ -58,12 +58,10 @@ button {
         border: 0;
         color: $black;
         background: $white;
-		border: 1px solid $fillColor;
         border-radius: $BORDER_RADIUS;       
         &:hover {
             text-decoration: none;
-            background: $secondaryContentColor;
-			border: 1px solid $secondaryContentColor;
+            background: $fillColor;
         }
     }
 }
