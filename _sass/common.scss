@@ -115,15 +115,16 @@ header,
 #header,
 .header
 {
-    border-bottom: 1px solid $borderColor;
+    border-top: 2px solid $primaryBrandColor;
+    border-bottom: 4px solid $secondaryBrandColor;
     background: $primaryBrandColor;
 }
 #header a {
-    color: $primaryBrandColor;
-    text-decoration: none;
+  color: $contentInverseColor;
+  text-decoration: none;
 }
 #header li.active a {
-    color: $primaryBrandColor;
+  color: $contentInverseColor;
 }
 //footer rules
 #footer a {
