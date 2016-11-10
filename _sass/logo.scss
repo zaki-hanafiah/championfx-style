@@ -1,38 +1,36 @@
 .logo-wrapper {
     display: inline-flex;
+	margin-top: 10px;
     .binary-logo-text {
         margin-top: 10px;
-        img.responsive {
-            width: 80%;
-        }
     }
 }
 
 .logo-parent {
     display: inline-flex;
-    padding: 10px 0;
 }
 
 .logo {
     display: inline-block;
-    width: 24%;
+    width: 45px; 
 }
 
 .binary-logo-text {
     display: inline-block;
-    padding: 0 10px;
+    padding: 10px 10px 0 10px;
+	width: 200px;
     img.responsive {
         width: 90%;
     }
 }
 
 img.responsive{
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
 @media screen and (max-width: 769px) {
     #header .logo {
-        width: 100%;
+        max-width: 100%;
     }
 }

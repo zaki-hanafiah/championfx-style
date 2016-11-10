@@ -115,9 +115,9 @@ header,
 #header,
 .header
 {
-    border-top: 2px solid $primaryBrandColor;
-    border-bottom: 4px solid $secondaryBrandColor;
-    background: $primaryBrandColor;
+    border-top: 0px solid $primaryBrandColor;
+    border-bottom: 1px solid $borderColor;
+    background: $white;
 }
 #header a {
     color: $contentInverseColor;
