@@ -24,8 +24,9 @@ main {
     background: #15212d;
 }
 #header{
-    background: #fff;
-    border-bottom: 1px solid #C2C2C2;
+    background: #004385;
+    border-top: 2px solid #004385;
+    border-bottom: 4px solid #004385;
     height: 75px;
 }
 #topbar-info div {
