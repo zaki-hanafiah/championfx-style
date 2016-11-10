@@ -18,7 +18,7 @@ i {
     background-color:$primaryBrandColor;
 }
 .primary-bg-color{
-    background-color:$primaryBrandColor;
+    background-color:$white;
 }
 .secondary-color{
     color:$secondaryBrandColor;
@@ -115,16 +115,15 @@ header,
 #header,
 .header
 {
-    border-top: 0px solid $primaryBrandColor;
     border-bottom: 1px solid $borderColor;
     background: $white;
 }
 #header a {
-    color: $contentInverseColor;
+    color: $primaryBrandColor;
     text-decoration: none;
 }
 #header li.active a {
-    color: $secondaryBrandColor;
+    color: $primaryBrandColor;
 }
 //footer rules
 #footer a {
