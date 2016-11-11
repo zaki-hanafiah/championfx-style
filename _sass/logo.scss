@@ -6,10 +6,12 @@
             width: 80%;
         }
     }
+    .logo-parent {
+        display: inline-flex;
+    }
 }
 
 .logo-parent {
-    display: inline-flex;
     padding: 10px 0;
 }
 
@@ -32,7 +34,12 @@ img.responsive{
 }
 
 @media screen and (max-width: 769px) {
-    #header .logo {
-        width: 100%;
+    #header {
+        .logo {
+            width: 100%;
+        }
+        .binary-logo-text {
+            display: none;
+        }
     }
 }
