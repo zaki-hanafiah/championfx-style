@@ -4,7 +4,7 @@ main {
   margin: 0 auto;
   max-width: 1000px;
 }
-.h1-title{
+.title{
   background-color:#f2f2f2;
   padding:10px;
 }
@@ -24,9 +24,9 @@ main {
     background: #15212d;
 }
 #header{
-    background: #2a3052;
-    border-top: 2px solid #394171;
-    border-bottom: 4px solid #e98024;
+    background: #004385;
+    border-top: 2px solid #004385;
+    border-bottom: 4px solid #004385;
     height: 75px;
 }
 #topbar-info div {
@@ -44,7 +44,7 @@ main {
 }
 .code-sample {
   margin-top: 1rem;
-  margin-bottom: 3rem; 
+  margin-bottom: 3rem;
 }
 .code-sample code{
   margin-bottom: 0;
@@ -321,4 +321,7 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {}
 }
 
 /* Champion */
+.logos  { padding:20px;}
+.logos  div{display:block; }
+.logo-preview {padding:20px;}
 .code--info--separator {border-top:1px solid #ccc; margin:20px 0; font-size: 24px; padding-top:0px; font-weight:400; color: #ccc; letter-spacing:6px; text-align:right; text-transform:uppercase;}

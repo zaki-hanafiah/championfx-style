@@ -8,8 +8,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <script src="binary.js"></script>
-    <link rel="icon" type="image/png" sizes="16x16" href="https://www.binary.com/images/favicons/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.binary.com/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/CFX_favicon16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/CFX_favicon32.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="binary.css">
 </head>
@@ -17,20 +17,21 @@
 <body>
     <div id="topbar" class="primary-color-dark" style="height:20px;">
     </div>
-    <div id="header" class="dark-blue">
+    <div id="header" class="primary-color">
         <div class="container">
-            <div class="logo-wrapper">
-                <a href="https://binary.com" class="logo-parent">
-                    <div class="logo">
-                        <img class="responsive" src="./images/logo/symbol.svg">
-                    </div>
-                    <div class="mobile-hide binary-logo-text">
-                        <img class="responsive" src="./images/logo/type.svg">
-                    </div>
-                </a>
-            </div>
+			<div class="logo-wrapper">
+				<a href="https://binary.com" class="logo-parent">
+					<div class="logo">
+						<img class="responsive" src="./images/logo/CFX_logomark_light.svg">
+					</div>
+					<div class="mobile-hide binary-logo-text">
+						<img class="responsive" src="./images/logo/CFX_logotype_light.svg">
+					</div>
+				</a>
+			</div>
         </div>
     </div>
+
     <main style="max-width: 960px; margin: 0 auto;">
       <div class="f-row">
           <div class="f-item" style="margin-top:40px;">
@@ -47,35 +48,50 @@
 	  <div id="" class="code--info--separator"></div>
         <div class="f-row">
             <div class="f-item" style="margin-top:40px;">
-                <h2>Colors</h2>
+                <h2 class="title">Colors</h2>
             </div>
         </div>
         <div class="f-row">
             <div class="f-item">
-                <p style="background-color:#004385;padding:10px;color:#fff;">Brand Blue
-                    <br>#004385</p>
+                <p style="background-color:#004385;padding:10px;color:#fff;">Brand Blue<br>#004385</p>
+            </div>
+			<div class="f-item">
+                <p style="background-color:#013365;padding:10px;color:#fff;">Dark Blue<br>#013365</p>
             </div>
         </div>
 		<div id="" class="code--info--separator"></div>
         <div class="f-row">
             <div class="f-item" style="margin-top:40px;">
-                <p>
-                    <h1 class="h1-title">Logo</h1></p>
+                <h2 class="title">Logo</h2>
             </div>
         </div>
         <div class="f-row">
             <div class="f-item" style="margin-top: 19px;">
-                <div class="logo-wrapper primary-color">
+			<div class="logos">
+                <div class="logo-wrapper logo-preview">
+					<a href="https://binary.com" class="logo-parent">
+						<div class="logo">
+							<img class="responsive" src="./images/logo/CFX_symbol.svg">
+						</div>
+						<div class="mobile-hide binary-logo-text">
+							<img class="responsive" src="./images/logo/CFX_text.svg">
+						</div>
+					</a>
+                </div>
+
+			<div class="logo-wrapper primary-color logo-preview">
                     <a class="logo-parent" href="https://binary.com">
                         <div class="logo">
-                            <img class="responsive" src="./images/logo/symbol.svg">
-                        </div>
-                        <div class="mobile-hide binary-logo-text">
-                            <img class="responsive" src="./images/logo/type.svg">
-                        </div>
+						<img class="responsive" src="./images/logo/CFX_logomark_light.svg">
+					</div>
+					<div class="mobile-hide binary-logo-text">
+						<img class="responsive" src="./images/logo/CFX_logotype_light.svg">
+					</div>
                     </a>
                 </div>
-            </div>
+
+			</div>
+			</div>
             <div class="f-item">
                 <div class="code-sample">
                     <pre class="prettyprint">
@@ -83,11 +99,11 @@
     &lt;a class=&quot;logo-parent&quot; href=&quot;https://binary.com&quot;&gt;
         &lt;div class=&quot;logo&quot;&gt;
             &lt;img class=&quot;responsive&quot;
-                src=&quot;./images/logo/symbol.svg&quot;&gt;
+                src=&quot;./images/logo/CFX_symbol.svg&quot;&gt;
         &lt;/div&gt;
         &lt;div class=&quot;mobile-hide binary-logo-text&quot;&gt;
             &lt;img class=&quot;responsive&quot;
-                src=&quot;./images/logo/type.svg&quot;&gt;
+                src=&quot;./images/logo/CFX_text.svg&quot;&gt;
         &lt;/div&gt;
     &lt;/a&gt;
           </code>
@@ -95,10 +111,10 @@
                 </div>
             </div>
         </div>
+		<div id="" class="code--info--separator"></div>
         <div class="f-row">
             <div class="f-item" style="margin-top:40px;">
-                <p>
-                    <h1 class="h1-title">Title</h1></p>
+                    <h2 class="title">Headings</h2>
             </div>
         </div>
         <div class="f-row">
@@ -122,7 +138,7 @@
 		<div id="" class="code--info--separator"></div>
         <div class="f-row">
             <div class="f-item" style="margin-top:40px;">
-                <h2>Text Formatting</h2>
+                <h2 class="title">Text Formatting</h2>
             </div>
         </div>
         <div class="f-row">
@@ -187,7 +203,7 @@
         <div class="f-row">
 
             <div class="f-item" style="margin-top:40px;">
-                <h2>Link and Buttons</h2>
+                <h2 class="title">Link and Buttons</h2>
             </div>
         </div>
         <div class="f-row">
@@ -244,7 +260,7 @@
 		<div id="" class="code--info--separator"></div>
         <div class="f-row">
             <div class="f-item" style="margin-top:40px;">
-                <h2>Messages</h2>
+                <h2 class="title">Messages</h2>
             </div>
         </div>
         <div class="f-row">
@@ -282,7 +298,7 @@
 
         <div class="f-row">
             <div class="f-item" style="margin-top:40px;">
-                <h1 class="h1-title">Spinner</h1>
+                <h2 class="title">Spinner</h2>
             </div>
         </div>
         <div class="f-row">
@@ -296,7 +312,7 @@
                     <div class="rect5"></div>
                 </div>
                 <p>use over a dark background:</p>
-                <div class="primary-bg-color" style="padding: 20px;">
+                <div class="primary-color" style="padding: 20px;">
                     <div class="barspinner white">
                         <div class="rect1"></div>
                         <div class="rect2"></div>
@@ -333,7 +349,7 @@
         </div>
         <div class="f-row">
             <div class="f-item">
-                <h2>Table</h2>
+                <h2 class="title">Table</h2>
             </div>
         </div>
         <div class="f-row f-row-start">
@@ -399,7 +415,7 @@
 		<div id="" class="code--info--separator"></div>
         <div class="f-row">
             <div class="f-item">
-                <h2>Sidebar Menu</h2>
+                <h2 class="title">Sidebar Menu</h2>
             </div>
         </div>
         <div class="f-row f-row-start">
@@ -573,7 +589,7 @@
 		<div id="" class="code--info--separator"></div>
         <div class="f-row">
             <div class="f-item">
-                <h2>Form</h2>
+                <h2 class="title">Form</h2>
             </div>
         </div>
         <div class="f-row">
@@ -615,7 +631,7 @@
 		<div id="" class="code--info--separator"></div>
         <div class="f-row">
             <div class="f-item">
-                <h2>Accordion</h2>
+                <h2 class="title">Accordion</h2>
             </div>
         </div>
         <div class="f-row">
@@ -660,7 +676,7 @@
 		<div id="" class="code--info--separator"></div>
         <div class="f-row">
             <div class="f-item">
-                <h2>Tabs</h2>
+                <h2 class="title">Tabs</h2>
             </div>
         </div>
         <div class="f-row">
@@ -704,7 +720,7 @@
         </div>
         <div class="f-row">
             <div class="f-item">
-                <h1 class="h1-title">Icons</h1>
+                <h2 class="title">Icons</h2>
             </div>
         </div>
         <div class="f-row">
@@ -822,27 +838,27 @@
                     </span>
                   </div>
                 </div>
-                
+
             </div>
             <div class="f-item">
                 <div class="code-sample">
                     <pre class="prettyprint">
                 <code>
   &lt;div class="f-item chartOptions_button"&gt;
-    &lt;span class = "templateButton" 
+    &lt;span class = "templateButton"
           data-balloon="Candles" data-balloon-pos="down"&gt;
       &lt;div class="img"&gt;
-        &lt;div 
+        &lt;div
         class="candlestick-icon"&gt;
-        &lt;/div&gt;  
+        &lt;/div&gt;
       &lt;/div&gt;
     &lt;/span&gt;
   &lt;/div&gt;
   &lt;div class="f-item chartOptions_button button_selected"&gt;
-    &lt;span class = "templateButton" 
+    &lt;span class = "templateButton"
           data-balloon="Candles" data-balloon-pos="down"&gt;
       &lt;div class="img"&gt;
-        &lt;div 
+        &lt;div
         class="candlestick-icon"&gt;
         &lt;/div&gt;
     &lt;/span&gt;
