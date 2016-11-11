@@ -4,7 +4,7 @@ main {
   margin: 0 auto;
   max-width: 1000px;
 }
-.h1-title{
+.title{
   background-color:#f2f2f2;
   padding:10px;
 }
@@ -44,7 +44,7 @@ main {
 }
 .code-sample {
   margin-top: 1rem;
-  margin-bottom: 3rem; 
+  margin-bottom: 3rem;
 }
 .code-sample code{
   margin-bottom: 0;

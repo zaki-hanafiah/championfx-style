@@ -4,15 +4,19 @@
     .binary-logo-text {
         margin-top: 10px;
     }
+    .logo-parent {
+        display: inline-flex;
+    }
 }
 
 .logo-parent {
+    padding: 10px 0;
     display: inline-flex;
 }
 
 .logo {
     display: inline-block;
-    width: 45px; 
+    width: 45px;
 }
 
 .binary-logo-text {
