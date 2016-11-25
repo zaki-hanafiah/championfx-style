@@ -1,5 +1,5 @@
 body
-{ 
+{
     font-family: $FONT-STACK;
     font-size: $FONT_SIZE_N;
     position: relative;
@@ -115,19 +115,18 @@ header,
 #header,
 .header
 {
-    border-top: 2px solid $contentInverseColor;
-    border-bottom: 1px solid $borderColor;
-    background: $contentInverseColor;
+    border-top: 2px solid $primaryBrandColor;
+    border-bottom: 4px solid $secondaryBrandColor;
+    background: $primaryBrandColor;
 }
 #header a {
-  color: $primaryBrandColor;
+  color: $contentInverseColor;
   text-decoration: none;
 }
 #header li.active a {
-  color: $primaryBrandColor;
+  color: $contentInverseColor;
 }
 //footer rules
-#footer,
 #footer a {
     font-size: $FONT_SIZE_S;
     font-weight: 400;
