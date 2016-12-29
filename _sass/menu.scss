@@ -23,25 +23,29 @@
     background-color: $primaryBrandColor;
     transition: none !important;
     & > li {
-        margin-top: 3px;
-        height: 70px;
+        margin: 0;
+        height: 77px;
         a {
             font-weight: normal;
+            display: block;
+            max-height: 70px;
+            margin-top: 3px;
             &:hover {
-              text-decoration: none;
+                text-decoration: none;
             }
         }
         & > ul {
-            margin: -18px -1px;
-            border: 1px solid $borderColor;
+            margin: 0;
+            margin-left: -1px;
             padding: 0;
+            border: 1px solid $borderColor;
             a {
                 color: initial;
                 li {
                     margin-top: 0;
                     padding: 7px 0;
                     &:hover {
-                      background-color: $borderColor;
+                        background-color: $borderColor;
                     }
                 }
             }
@@ -51,6 +55,9 @@
         position: relative;
         top: -45px;
         right: -68px;
+    }
+    * {
+        outline: none;
     }
 }
 .nav-caret {
@@ -68,6 +75,7 @@
     visibility: hidden;
     & > li a {
         color: $contentColor;
+        margin: 0;
     }
 }
 #main-logout, #logout-top {
@@ -79,4 +87,7 @@
 }
 .separator-line-thin-gray {
     border-top: 1px solid $borderColor;
+}
+#main-account {
+    height: 70px;
 }
