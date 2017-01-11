@@ -141,3 +141,23 @@ header,
 .invisible {
     display: none !important;
 }
+//login scope
+.fx-acc {
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	fieldset {
+		border: 1px solid $borderColor;
+	}
+	.login {
+		text-align: center;
+	}
+	input {
+		width: 90%;
+		padding: 10px;
+		outline: none;
+	}
+	.button {
+		width: 90%;
+	}
+}
