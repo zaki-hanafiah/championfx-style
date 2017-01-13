@@ -10,6 +10,7 @@
     border-radius: $BORDER_RADIUS;
     box-shadow: $z-depth-1;
 	transition: box-shadow .25s;
+    outline: none;
     &:active,
     &:hover {
         text-decoration: none;
