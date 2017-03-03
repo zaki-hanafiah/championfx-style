@@ -2,7 +2,7 @@
     text-decoration: none;
     text-align: center;
     line-height: 100%;
-    padding: 10px 25px;
+    padding: 15px 25px;
     display: inline-block;
     font-weight: 400;
     font-family: inherit;
@@ -22,8 +22,8 @@ button {
     cursor: pointer;
     font-size: $FONT_SIZE_N;
     border: 0;
-    background: $positiveColor;
-    color: $contentInverseColor;	
+    background: $lightBlueColor;
+    color: $contentInverseColor;
     &:visited {
         color: $contentInverseColor;
     }
@@ -47,7 +47,7 @@ button {
         overflow: visible;
         border: 0;
         color: $contentInverseColor;
-        background: $positiveColor;
+        background: $lightBlueColor;
         &:hover {
           background-color: $darkPositiveColor;
         }
@@ -65,7 +65,7 @@ button {
         border: 0;
         color: $black;
         background: $white;
-        border-radius: $BORDER_RADIUS;       
+        border-radius: $BORDER_RADIUS;
         &:hover {
             text-decoration: none;
             background: $fillColor;
