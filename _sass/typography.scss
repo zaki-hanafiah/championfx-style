@@ -8,6 +8,10 @@ a, a:visited {
     &:hover, &:active {
         text-decoration: underline;
     }
+    &.secondary-link {
+        color: $lightBlueColor;
+        font-weight: normal;
+    }
 }
 p {
     margin: 1em 0;
@@ -27,7 +31,7 @@ h1 {
     font-size: 2.2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-	font-weight: 400;   
+	font-weight: 400;
     a {
         color: $primaryBrandColor !important;
     }
@@ -36,7 +40,7 @@ h2 {
     color: $primaryBrandColor;
     font-size: 1.9rem;
     margin-top: 1rem;
-    margin-bottom: .8rem;    
+    margin-bottom: .8rem;
     font-weight: 300;
     a {
         color: $primaryBrandColor !important;
@@ -67,7 +71,7 @@ h4 {
     margin-bottom: .6rem;
     a {
         color: $primaryBrandColor !important;
-    }  
+    }
 }
 h5, .h5 {
 	font-size: 1.25rem;
