@@ -62,6 +62,9 @@ h3 {
     a {
         color: $primaryBrandColor !important;
     }
+    &.blue {
+        color: $darkPrimaryBrandColor;
+    }
 }
 h4 {
     color: $contentColor;
