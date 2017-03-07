@@ -16,7 +16,7 @@
       padding: 0;
       font-weight: normal;
       text-decoration: none;
-      color: $primaryBrandColor;
+      color: $contentColor;
       font-size: 90%;
       background: transparent;
     }
@@ -42,7 +42,7 @@
     li {
       background: none;
       a {
-        color: $black;
+        color: $contentColor;
         padding-top: 0;
         font-weight: normal;
         text-decoration: none;
