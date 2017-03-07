@@ -90,11 +90,6 @@
     @include tab-list;
     margin-bottom: 2em;
   }
-  .tab-with-subsection, .content-tab-container {
-    .tm-ul {
-      border-bottom: 1px solid $black;
-    }
-  }
 }
 
 .has-tabs {
