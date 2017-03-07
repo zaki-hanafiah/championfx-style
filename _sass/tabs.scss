@@ -49,7 +49,7 @@
           list-style-image: none;
           background: $white;
           border-radius: $BORDER_RADIUS $BORDER_RADIUS 0 0;
-          margin: 0 2px 0 0;
+          margin: 10px 0;
           padding: 0 10px;
           border-bottom: 3px solid $white;
           a, a:visited {
@@ -65,7 +65,7 @@
       li.ui-tabs-active {
           background: $white;
           color: $primaryBrandColor;
-          border-bottom: 3px solid $darkPrimaryBrandColor;
+          border-bottom: 3px solid $darkPrimaryBrandColor !important;
           margin-bottom: 0;
           a {
               background: none;
