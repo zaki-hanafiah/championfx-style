@@ -14,6 +14,7 @@
             border-radius: $BORDER_RADIUS $BORDER_RADIUS 0 0;
             margin: 0 2px 0 0;
             padding: 0 10px;
+            border-bottom: 3px solid $fillColor;
             a, a:visited {
                 padding: 3px 0 0 !important;
                 font-weight: normal;
