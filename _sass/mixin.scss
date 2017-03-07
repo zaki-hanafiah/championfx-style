@@ -39,6 +39,42 @@
       line-height: 2;
     }
   }
+  ul.tabs-vertical {
+      li {
+          cursor: pointer;
+          border: none;
+          list-style-image: none;
+          background: $white;
+          border-radius: 4px 4px 0 0;
+          margin: 0 6px 0 0;
+          padding: 0 10px;
+          border-bottom: 3px solid $white;
+          a, a:visited {
+              padding: 0;
+              font-weight: normal;
+              text-decoration: none;
+              color: $contentColor;
+              font-size: 90%;
+              background: transparent;
+          }
+    }
+        li.active, li.ui-tabs-active {
+            background: $white;
+            color: $primaryBrandColor;
+            border-bottom: 3px solid $darkPrimaryBrandColor;
+            a {
+                background: none;
+                color: $primaryBrandColor;
+                font-weight: bold;
+                text-decoration: none;
+                padding: 0;
+                outline: none;
+            }
+            span.a-active {
+                line-height: 2;
+            }
+        }
+  }
   ul.tm-ul-2 {
     list-style-type: none;
     margin: 0;
