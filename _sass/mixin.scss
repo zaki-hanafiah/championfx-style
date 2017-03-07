@@ -23,8 +23,8 @@
     }
   }
   li.active, li.ui-tabs-active {
-    background: $primaryBrandColor;
-    color: $white;
+    background: $fillColor;
+    color: $primaryBrandColor;
     a {
       background: none;
       color: $white;
