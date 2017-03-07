@@ -70,7 +70,7 @@
     }
     li.active {
       @extend li.hover;
-      border-bottom: 1px solid $fillColor !important;
+      border-bottom: 3px solid $fillColor !important;
       background: $fillColor !important;
       a {
         color: $secondaryBrandColor;
