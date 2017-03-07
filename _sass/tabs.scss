@@ -6,6 +6,7 @@
         padding: 0;
         margin-left: 0;
         background: none;
+        border-bottom: 1px solid $borderColor;
         li {
             border: none;
             list-style-image: none;
@@ -51,7 +52,6 @@
 
 .has-tabs {
     .ui-tabs-panel {
-        border: 1px solid $borderColor;
         padding: 10px;
     }
 }
