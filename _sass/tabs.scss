@@ -39,7 +39,8 @@
             }
         }
     }
-    .ui-tabs-vertical {
+    .tabs-vertical {
+        @include .ui-tabs-vertical;
         color: red;
     }
 }
