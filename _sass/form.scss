@@ -7,7 +7,12 @@ select, input, textarea {
     border: 1px solid $fillColor;
     color: $contentColor;
     background: $contentInverseColor;
+}
+textarea {
     border-radius: $BORDER_RADIUS;
+}
+select, input {
+    border-radius: $ROUND_BORDER_RADIUS;
 }
 fieldset {
     border: 1px solid $fillColor;
