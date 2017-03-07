@@ -1,6 +1,6 @@
 .tabs-container, .has-tabs {
     padding: 0;
-    ul.ui-tabs-nav, ul.ui-tabs-vertical {
+    ul.ui-tabs-nav {
         border: none;
         border-radius: 0;
         padding: 0;
@@ -38,6 +38,44 @@
                 outline: none;
             }
         }
+    }
+    ul.ui-tabs-vertical {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      margin-left: 0;
+      background: none;
+      li {
+          list-style-image: none;
+          background: $white;
+          border-radius: $BORDER_RADIUS $BORDER_RADIUS 0 0;
+          margin: 0 2px 0 0;
+          padding: 0 10px;
+          border-bottom: 3px solid $white;
+          a, a:visited {
+              padding: 3px 0 0 !important;
+              font-weight: normal;
+              text-decoration: none;
+              color: $contentColor;
+              font-size: 90%;
+              background: transparent;
+          }
+      }
+      li.active,
+      li.ui-tabs-active {
+          background: $white;
+          color: $primaryBrandColor;
+          border-bottom: 3px solid $darkPrimaryBrandColor;
+          margin-bottom: 0;
+          a {
+              background: none;
+              color: $primaryBrandColor;
+              font-weight: bold;
+              text-decoration: none;
+              padding: 0;
+              outline: none;
+          }
+      }
     }
 }
 
