@@ -7,6 +7,7 @@ select, input, textarea {
     border: 1px solid $fillColor;
     color: $contentColor;
     background: $contentInverseColor;
+    outline: none;
 }
 textarea {
     border-radius: $BORDER_RADIUS;
