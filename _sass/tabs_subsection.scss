@@ -71,7 +71,7 @@
     li.active {
       @extend li.hover;
       border-bottom: none !important;
-      background: $fillColor;
+      background: $fillColor !important;
       a {
         color: $secondaryBrandColor;
       }
