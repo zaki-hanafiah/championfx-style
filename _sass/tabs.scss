@@ -24,8 +24,9 @@
         }
         li.active,
         li.ui-tabs-active {
-            background: $primaryBrandColor;
-            color: $contentInverseColor;
+            background: $fillColor;
+            color: $primaryBrandColor;
+            border-bottom: 3px solid $darkPrimaryBrandColor;
             a {
                 background: none;
                 color: $contentInverseColor;
@@ -45,7 +46,6 @@
     }
     ul.ui-tabs-nav {
         margin-bottom: 2px;
-        border-bottom: 1px solid $black;
     }
 }
 
