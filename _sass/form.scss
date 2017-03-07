@@ -22,7 +22,7 @@ fieldset {
 }
 .hint {
     font-size: $FONT_SIZE_S;
-    color: $black;
+    color: $secondaryContentColor;
     margin-top: 3px
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
