@@ -94,3 +94,9 @@
         padding: 10px;
     }
 }
+
+.tabs-vertical {
+    .ui-tabs-panel {
+        border-left: 2px solid $darkPrimaryBrandColor;
+    }
+}
