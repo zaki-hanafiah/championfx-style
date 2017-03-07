@@ -63,6 +63,22 @@ button {
         }
     }
 }
+.button-dark {
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    span {
+        @include link-button;
+        overflow: visible;
+        border: 0;
+        color: $white;
+        background: $darkPrimaryBrandColor;
+        border-radius: $ROUND_BORDER_RADIUS;
+        &:hover {
+            text-decoration: none;
+            background: $primaryBrandColor;
+        }
+    }
+}
 .button-secondary {
     cursor: pointer;
     margin-bottom: 0.5em;
