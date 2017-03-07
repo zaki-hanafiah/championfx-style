@@ -6,7 +6,7 @@
     display: inline-block;
     font-weight: 400;
     font-family: inherit;
-    border-radius: $BORDER_RADIUS;
+    border-radius: $ROUND_BORDER_RADIUS;
     box-shadow: $z-depth-1;
 	transition: box-shadow .25s;
     outline: none;
@@ -65,7 +65,7 @@ button {
         border: 0;
         color: $black;
         background: $white;
-        border-radius: $BORDER_RADIUS;
+        border-radius: $ROUND_BORDER_RADIUS;
         &:hover {
             text-decoration: none;
             background: $fillColor;
@@ -75,7 +75,7 @@ button {
 .button-disabled {
     cursor: pointer;
     margin-bottom: 0.5em;
-	border-radius: $BORDER_RADIUS;
+	border-radius: $ROUND_BORDER_RADIUS;
 	box-shadow: none!important;
     span {
         @include link-button;
