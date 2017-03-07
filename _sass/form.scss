@@ -25,6 +25,10 @@ fieldset {
     color: $secondaryContentColor;
     margin-top: 3px
 }
+.secondary-hint {
+    @include .hint;
+    padding-left: 10px;
+}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: $secondaryContentColor;
 }
