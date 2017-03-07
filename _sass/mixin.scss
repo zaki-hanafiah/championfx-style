@@ -4,7 +4,6 @@
   padding: 0;
   margin-left: 0;
   background: none;
-  border-bottom: 1px solid $black;
   li {
     cursor: pointer;
     border: none;
@@ -17,7 +16,7 @@
       padding: 0;
       font-weight: normal;
       text-decoration: none;
-      color: $black;
+      color: $primaryBrandColor;
       font-size: 90%;
       background: transparent;
     }
