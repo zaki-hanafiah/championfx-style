@@ -26,7 +26,7 @@ fieldset {
     margin-top: 3px
 }
 .secondary-hint {
-    @include .hint;
+    @extend .hint;
     padding-left: 10px;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
