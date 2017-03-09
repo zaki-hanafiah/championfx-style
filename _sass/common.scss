@@ -102,11 +102,11 @@ header,
     background: $primaryBrandColor;
 }
 #header a, .header a {
-  color: $contentInverseColor;
-  text-decoration: none;
+    color: $contentInverseColor;
+    text-decoration: none;
 }
 #header #menu-top li.active a, .header #menu-top li.active a {
-  color: $secondaryBrandColor;
+    color: $secondaryBrandColor;
 }
 //footer rules
 #footer {
@@ -114,9 +114,9 @@ header,
         font-size: $FONT_SIZE_XS;
     }
     a {
-     font-size: $FONT_SIZE_S;
-     font-weight: 400;
-     color: $contentInverseColor;
+       font-size: $FONT_SIZE_S;
+       font-weight: 400;
+       color: $contentInverseColor;
    }
 }
 

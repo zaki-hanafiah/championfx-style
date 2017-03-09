@@ -16,7 +16,6 @@
             width: 45px;
             height: 45px;
         }
-
     }
 }
 
@@ -71,7 +70,7 @@
         		c0-1.8-1.8-2.9-2.4-3.8c4.3-0.6,12.2,0.8,14.8,5l0,0l0,0l0,0c-3-1.9-6.4-2.9-10-2.9C72.2,58.9,45.4,55.6,36.7,61.4z"/>
         </g>
         </svg>
-');
+ ');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -169,8 +168,8 @@
 }
 
 img.responsive{
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 769px) {
