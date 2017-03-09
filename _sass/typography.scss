@@ -8,10 +8,6 @@ a, a:visited {
     &:hover, &:active {
         text-decoration: underline;
     }
-    &.secondary-link {
-        color: $lightBlueColor;
-        font-weight: normal;
-    }
 }
 p {
     margin: 1em 0;
