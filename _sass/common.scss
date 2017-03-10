@@ -132,3 +132,25 @@ header,
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.box {
+    padding: 10px 30px;
+}
+
+.separator {
+    height: 2px;
+}
+
+.bordered {
+    border: 1px solid $primaryBrandColor;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.vertical-center {
+    align-items: center;
+    display: flex;
+}
