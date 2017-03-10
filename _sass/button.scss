@@ -63,7 +63,7 @@ button {
         @include link-button;
         overflow: visible;
         border: 0;
-        color: $black;
+        color: $primaryBrandColor;
         background: $white;
         border-radius: $ROUND_BORDER_RADIUS;
         &:hover {

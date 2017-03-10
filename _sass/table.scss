@@ -12,7 +12,8 @@ table {
     thead, th {
         line-height: 1.1em;
         font-weight: normal;
-        padding: 0.5rem .2rem;
+        padding: 10px 20px;
+        text-align: left;
         background: $fillColor;
         border-bottom: 1px solid $fillColor;
         vertical-align: middle;
@@ -29,8 +30,9 @@ table {
     td {
         vertical-align: top;
         border-width: 0 1px;
-        padding: 1.2rem 0;
-        border-bottom: 3px solid $fillColor;
+        padding: 10px 20px;
+        text-align: left;
+        border-bottom: 2px solid $fillColor;
         &.num {
             text-align: center;
         }
@@ -40,6 +42,11 @@ table {
         }
         &.tip {
             text-align: left;
+        }
+    }
+    &.centered {
+        th:not(:first-child), td:not(:first-child) {
+            text-align: center;
         }
     }
 }

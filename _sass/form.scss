@@ -21,9 +21,9 @@ fieldset {
     border: 1px solid $fillColor;
 }
 .hint {
-    font-size: $FONT_SIZE_S;
+    font-size: $FONT_SIZE_XS;
     color: $secondaryContentColor;
-    margin-top: 3px
+    margin-top: 5px;
 }
 .secondary-hint {
     @extend .hint;

@@ -4,7 +4,6 @@ main {
   margin: 0 auto;
   max-width: 1000px;
 }
-<<<<<<< HEAD
 .title{
   background-color:#f2f2f2;
   padding:10px;
@@ -339,7 +338,7 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {}
 }
 
 .page-content {
-    font-size: 18px;
+    font-size: 16px;
     flex: 4;
 }
 
