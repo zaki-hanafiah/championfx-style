@@ -3,19 +3,31 @@ select, input, textarea {
     font-size: inherit;
     font-weight: inherit;
     font-style: inherit;
-    padding: 2px 3px;
-    border: 1px solid $fillColor;
+    padding: 5px 3px;
     color: $contentColor;
     background: $contentInverseColor;
+    outline: none;
     border-radius: $BORDER_RADIUS;
+    border: 1px solid $secondaryBorderColor;
+}
+select, input {
+    &.secondary-input {
+        border-radius: $ROUND_BORDER_RADIUS;
+        border: 1px solid $borderColor;
+        padding: 5px 10px;
+    }
 }
 fieldset {
     border: 1px solid $fillColor;
 }
 .hint {
     font-size: $FONT_SIZE_S;
-    color: $black;
+    color: $secondaryContentColor;
     margin-top: 3px
+}
+.secondary-hint {
+    @extend .hint;
+    padding-left: 10px;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: $secondaryContentColor;

@@ -6,15 +6,15 @@
     display: inline-block;
     font-weight: 400;
     font-family: inherit;
-    border-radius: $BORDER_RADIUS;
+    border-radius: $ROUND_BORDER_RADIUS;
     box-shadow: $z-depth-1;
-	transition: box-shadow .25s;
+  	transition: box-shadow .25s;
     outline: none;
     &:active,
     &:hover {
         text-decoration: none;
-		box-shadow: $z-depth-1-half;
-	    transition: box-shadow .25s;
+		    box-shadow: $z-depth-1-half;
+	      transition: box-shadow .25s;
     }
 }
 button {
@@ -22,14 +22,14 @@ button {
     cursor: pointer;
     font-size: $FONT_SIZE_N;
     border: 0;
-    background: $positiveColor;
-    color: $contentInverseColor;	
+    background: $darkPrimaryBrandColor;
+    color: $contentInverseColor;
     &:visited {
         color: $contentInverseColor;
     }
     &:active,
     &:hover {
-        background-color: $darkPositiveColor;
+        background-color: $primaryBrandColor;
     }
     &.button-secondary {
         background: $fillColor;
@@ -47,12 +47,12 @@ button {
         overflow: visible;
         border: 0;
         color: $contentInverseColor;
-        background: $positiveColor;
+        background: $darkPrimaryBrandColor;
         &:hover {
-          background-color: $darkPositiveColor;
+            background-color: $primaryBrandColor;
         }
         &visited{
-          color: $contentInverseColor;
+            color: $contentInverseColor;
         }
     }
 }
@@ -65,7 +65,7 @@ button {
         border: 0;
         color: $black;
         background: $white;
-        border-radius: $BORDER_RADIUS;       
+        border-radius: $ROUND_BORDER_RADIUS;
         &:hover {
             text-decoration: none;
             background: $fillColor;
@@ -75,8 +75,8 @@ button {
 .button-disabled {
     cursor: pointer;
     margin-bottom: 0.5em;
-	border-radius: $BORDER_RADIUS;
-	box-shadow: none!important;
+  	border-radius: $ROUND_BORDER_RADIUS;
+  	box-shadow: none!important;
     span {
         @include link-button;
         overflow: visible;
@@ -85,7 +85,7 @@ button {
         color: $borderColor;
         background: $fillColor;
         cursor: default;
-		box-shadow: none!important;
+		    box-shadow: none!important;
         &:active,
         &:hover {
             color: $borderColor;
