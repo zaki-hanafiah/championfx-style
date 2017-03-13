@@ -48,8 +48,8 @@ fieldset {
     font-size: inherit;
     font-weight: inherit;
     font-style: inherit;
-    border: 1px solid $borderColor;
+    border: 1px solid $secondaryBorderColor;
     color: $contentColor;
     background: $contentInverseColor;
-    border-radius: $ROUND_BORDER_RADIUS;
+    border-radius: $BORDER_RADIUS;
 }
