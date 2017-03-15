@@ -53,3 +53,11 @@ fieldset {
     background: $contentInverseColor;
     border-radius: $BORDER_RADIUS;
 }
+
+.text-display {
+    display: block;
+    font-weight: 400;
+    border: 1px solid $fillColor;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
