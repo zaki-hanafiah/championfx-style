@@ -154,3 +154,9 @@ label {
     align-items: center;
     display: flex;
 }
+
+sup {
+    color: $secondaryBrandColor;
+    font-size: 80%;
+    margin-left: 2px;
+}
