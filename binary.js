@@ -34,6 +34,7 @@ function topNavMenuListener() {
         event.stopPropagation();
         hide_menu($('#all-accounts, #all-accounts-top'));
         hide_menu($('#language_select, #select_language'));
+        hide_menu($('.top-nav-menu li ul'));
         var childMenu = $(this).find(' > ul'),
             $el = $('.top-nav-menu li ul');
         if (childMenu.css('opacity') == 1 && $(event.target).find('span').hasClass('nav-caret')) {
