@@ -1,12 +1,14 @@
 .sidebar-left {
     ul {
-        font-size:$FONT_SIZE_N;
+        font-size: $FONT_SIZE_N;
+        
         li {
             list-style-image: none;
             margin: 0;
             background: $fillColor;
             line-height: 150%;
             border-bottom: 1px solid $contentInverseColor;
+            
             &:hover {
                 background: $borderColor;
             }
@@ -21,6 +23,7 @@
         }
         li.selected {
             background: $primaryBrandColor;
+            
             a {
                 color: $contentInverseColor;
                 text-decoration: none;
