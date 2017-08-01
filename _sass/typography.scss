@@ -1,88 +1,78 @@
+/** 
+ *Typography
+ */
+
 h1, h2, h3, h4, li, p, a, span {
     text-rendering: optimizeLegibility;
 }
 
-a, a:visited {
+// Remove top margins from headings
+h1, h2, h3, h4 {
+    margin-top: 0;
     color: $primaryBrandColor;
-    text-decoration: none;
-    font-weight: bold;
-
-    &:hover, &:active {
-        text-decoration: underline;
-    }
-}
-
-p {
-    margin: 1em 0;
-    line-height: 1.4em;
-}
-
-.font-n {
-    font-size: $FONT_SIZE_N;
-}
-
-.font-s {
-    font-size: $FONT_SIZE_S;
-}
-
-.font-xs {
-    font-size: $FONT_SIZE_XS;
+    font-weight: 400;
 }
 
 h1 {
-    color: $primaryBrandColor;
     font-size: 36px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: 400;
-    
-    a {
-        color: $primaryBrandColor !important;
-    }
+    margin-bottom: 2rem;
 }
 
 h2 {
-    color: $primaryBrandColor;
     font-size: 28px;
-    margin-top: 1rem;
-    margin-bottom: 0.8rem;
-    font-weight: 300;
-    
-    a {
-        color: $primaryBrandColor !important;
-    }
-    em {
-        text-decoration: underline;
-    }
-    &.center {
-        text-align: center;
-        margin: 1.25em auto;
-    }
+    margin-bottom: 2rem;
 }
 
 h3 {
-    color: $primaryBrandColor;
     font-size: 22px;
-    font-weight: 300;
-    margin-top: 1rem;
-    margin-bottom: 0.6rem;
-    
-    a {
-        color: $primaryBrandColor !important;
-    }
-    &.blue {
-        color: $darkPrimaryBrandColor !important;
-    }
+    margin-bottom: 1rem;
 }
 
 h4 {
-    color: $primaryBrandColor;
     font-size: 18px;
-    font-weight: 400;
-    margin-top: 1rem;
-    margin-bottom: 0.6rem;
-    
-    a {
-        color: $primaryBrandColor !important;
+    margin-bottom: 0;
+}
+
+// Reset margins on paragraphs
+p {
+    margin: 1rem 0;
+}
+
+// Reset margins and paddings on lists
+ol, ul {
+  list-style: none;
+  margin: 0 0 0 2rem;
+  padding-left: 2rem;
+
+  li {
+    margin: 1rem 0;
+
+    ol, ul {
+      margin: 0 0 0 2rem;
+    }
+  }
+}
+
+/** 
+ * Links
+ */
+a, a:visited {
+    color: $primaryBrandColor;
+    font-weight: bold;
+
+    &:hover, &:active {
+        color: $darkPrimaryBrandColor;
     }
 }
+
+// .font-n {
+//     font-size: $FONT_SIZE_N;
+// }
+
+// .font-s {
+//     font-size: $FONT_SIZE_S;
+// }
+
+// .font-xs {
+//     font-size: $FONT_SIZE_XS;
+// }
