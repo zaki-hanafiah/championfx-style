@@ -1,6 +1,11 @@
+/** 
+ * Body
+ */
 body {
-    font-family: $FONT-STACK;
-    font-size: $FONT_SIZE_N;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+    line-height: $base-line-height;
     position: relative;
     min-height: 100%;
     margin: 0;
@@ -15,166 +20,166 @@ i {
     font-style: italic;
 }
 
-.primary-color {
-    background-color: $primaryBrandColor;
-}
+// .primary-color {
+//     background-color: $primaryBrandColor;
+// }
 
-.primary-bg-color {
-    background-color: $white;
-}
+// .primary-bg-color {
+//     background-color: $white;
+// }
 
-.secondary-color {
-    color: $secondaryBrandColor;
-}
+// .secondary-color {
+//     color: $secondaryBrandColor;
+// }
 
-.secondary-bg-color {
-    background-color: $secondaryBrandColor;
-}
+// .secondary-bg-color {
+//     background-color: $secondaryBrandColor;
+// }
 
-.primary-color-dark {
-    background-color: $darkPrimaryBrandColor;
-}
+// .primary-color-dark {
+//     background-color: $darkPrimaryBrandColor;
+// }
 
-.primary-bg-color-dark {
-    background-color: $darkPrimaryBrandColor;
-}
+// .primary-bg-color-dark {
+//     background-color: $darkPrimaryBrandColor;
+// }
 
-.content-inverse-color {
-    color: $contentInverseColor;
-}
+// .content-inverse-color {
+//     color: $contentInverseColor;
+// }
 
-.fill-bg-color {
-    background-color: $fillColor;
-}
+// .fill-bg-color {
+//     background-color: $fillColor;
+// }
 
-.border-color {
-    color: $borderColor;
-}
+// .border-color {
+//     color: $borderColor;
+// }
 
-ol, ul {
-    list-style: none;
+// ol, ul {
+//     list-style: none;
 
-    li {
-        line-height: 1.4em;
-        margin: 0.5em 0 0;
+//     li {
+//         line-height: 1.4em;
+//         margin: 0.5em 0 0;
 
-        ol, ul {
-            margin: 0.8em 0 0 1em;
-        }
-    }
-}
+//         ol, ul {
+//             margin: 0.8em 0 0 1em;
+//         }
+//     }
+// }
 
-ul.bullet {
-    margin: 1.25em 0 1.25em 1.25em;
-}
+// ul.bullet {
+//     margin: 1.25em 0 1.25em 1.25em;
+// }
 
-ol {
-    margin: 1.25em 0 1.25em 1.25em;
-}
+// ol {
+//     margin: 1.25em 0 1.25em 1.25em;
+// }
 
-ul.bullet > li {
-    list-style-image: svg-url('<svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path fill="#{rgba($primaryBrandColor, 1)}" d="M12,17.5A5.5,5.5,0,1,1,17.5,12,5.507,5.507,0,0,1,12,17.5"/></svg>');
-}
+// ul.bullet > li {
+//     list-style-image: svg-url('<svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path fill="#{rgba($primaryBrandColor, 1)}" d="M12,17.5A5.5,5.5,0,1,1,17.5,12,5.507,5.507,0,0,1,12,17.5"/></svg>');
+// }
 
-ol li {
-    list-style-type: decimal;
-    list-style-image: none;
-}
+// ol li {
+//     list-style-type: decimal;
+//     list-style-image: none;
+// }
 
 img {
     vertical-align: middle;
     border: 0;
 }
 
-ul.checked {
-    > li {
-        min-height: 24px;
-        padding-left: 35px;
-        background: svg-url('<svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon fill="#{rgba($secondaryBrandColor, 1)}" points="8.308 22.298 0.399 14.39 3.934 10.854 8.308 15.228 20.066 3.47 23.601 7.005 8.308 22.298"/></svg>') no-repeat;
-    }
-}
+// ul.checked {
+//     > li {
+//         min-height: 24px;
+//         padding-left: 35px;
+//         background: svg-url('<svg width="24px" height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon fill="#{rgba($secondaryBrandColor, 1)}" points="8.308 22.298 0.399 14.39 3.934 10.854 8.308 15.228 20.066 3.47 23.601 7.005 8.308 22.298"/></svg>') no-repeat;
+//     }
+// }
 
-.reset_ol {
-    counter-reset: item;
+// .reset_ol {
+//     counter-reset: item;
 
-    li {
-        display: block;
-    }
-    li:before {
-        content: counters(item, '.') '. ';
-        counter-increment: item;
-    }
-}
+//     li {
+//         display: block;
+//     }
+//     li:before {
+//         content: counters(item, '.') '. ';
+//         counter-increment: item;
+//     }
+// }
 
-.border-bottom {
-    border-bottom: 1px solid $borderColor;
-}
+// .border-bottom {
+//     border-bottom: 1px solid $borderColor;
+// }
 
-.contract_error {
-    background-color: $noticeColor !important;
-}
-//header
-header, #header, .header {
-    border-top: 2px solid $primaryBrandColor;
-    border-bottom: 4px solid $secondaryBrandColor;
-    background: $primaryBrandColor;
-}
+// .contract_error {
+//     background-color: $noticeColor !important;
+// }
+// //header
+// header, #header, .header {
+//     border-top: 2px solid $primaryBrandColor;
+//     border-bottom: 4px solid $secondaryBrandColor;
+//     background: $primaryBrandColor;
+// }
 
-#header a, .header a {
-    color: $contentInverseColor;
-    text-decoration: none;
-}
+// #header a, .header a {
+//     color: $contentInverseColor;
+//     text-decoration: none;
+// }
 
-#header #menu-top li.active a, .header #menu-top li.active a {
-    color: $secondaryBrandColor;
-}
+// #header #menu-top li.active a, .header #menu-top li.active a {
+//     color: $secondaryBrandColor;
+// }
 
-//footer rules
-#footer {
-    #footer-regulatory a {
-        font-size: $FONT_SIZE_XS;
-    }
-    a {
-        font-size: $FONT_SIZE_S;
-        font-weight: 400;
-        color: $contentInverseColor;
-    }
-}
+// //footer rules
+// #footer {
+//     #footer-regulatory a {
+//         font-size: $FONT_SIZE_XS;
+//     }
+//     a {
+//         font-size: $font-size-small;
+//         font-weight: $font-weight-regular;
+//         color: $contentInverseColor;
+//     }
+// }
 
-.invisible {
-    display: none !important;
-}
+// .invisible {
+//     display: none !important;
+// }
 
-.center-text {
-    text-align: center;
-}
+// .center-text {
+//     text-align: center;
+// }
 
-.separator-line {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+// .separator-line {
+//     margin-top: 10px;
+//     margin-bottom: 10px;
+// }
 
-.box {
-    padding: 10px 30px;
-}
+// .box {
+//     padding: 10px 30px;
+// }
 
-.separator {
-    height: 2px;
-}
+// .separator {
+//     height: 2px;
+// }
 
-.bordered {
-    border: 1px solid $primaryBrandColor;
-}
+// .bordered {
+//     border: 1px solid $primaryBrandColor;
+// }
 
 label {
     display: block;
     margin-bottom: 5px;
 }
 
-.vertical-center {
-    align-items: center;
-    display: flex;
-}
+// .vertical-center {
+//     align-items: center;
+//     display: flex;
+// }
 
 table sup, sup {
     color: $secondaryBrandColor;

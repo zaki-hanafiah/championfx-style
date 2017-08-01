@@ -71,7 +71,7 @@
         text-align: center;
         background: $white;
         padding: 2px 3px;
-        font-size: $FONT_SIZE_S;
+        font-size: $font-size-small;
         
         &.error-msg {
             border-color: $negativeColor;

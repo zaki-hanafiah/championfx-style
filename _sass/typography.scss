@@ -10,7 +10,7 @@ h1, h2, h3, h4, li, p, a, span {
 h1, h2, h3, h4 {
     margin-top: 0;
     color: $primaryBrandColor;
-    font-weight: 400;
+    font-weight: $font-weight-regular;
 }
 
 h1 {
@@ -58,7 +58,7 @@ ol, ul {
  */
 a, a:visited {
     color: $primaryBrandColor;
-    font-weight: bold;
+    font-weight: $font-weight-bold;
 
     &:hover, &:active {
         color: $darkPrimaryBrandColor;
@@ -66,11 +66,11 @@ a, a:visited {
 }
 
 // .font-n {
-//     font-size: $FONT_SIZE_N;
+//     font-size: $font-size-regular;
 // }
 
 // .font-s {
-//     font-size: $FONT_SIZE_S;
+//     font-size: $font-size-small;
 // }
 
 // .font-xs {

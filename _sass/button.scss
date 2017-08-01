@@ -4,9 +4,9 @@
     line-height: 100%;
     padding: 10px 25px;
     display: inline-block;
-    font-weight: 400;
+    font-weight: $font-weight-regular;
     font-family: inherit;
-    border-radius: $ROUND_BORDER_RADIUS;
+    border-radius: $border-radius-100;
     box-shadow: $z-depth-1;
     transition: box-shadow 0.25s;
     outline: none;
@@ -21,7 +21,7 @@
 button {
     @include link-button;
     cursor: pointer;
-    font-size: $FONT_SIZE_N;
+    font-size: $font-size-regular;
     border: 0;
     background: $darkPrimaryBrandColor;
     color: $contentInverseColor;
@@ -72,7 +72,7 @@ button {
         border: 0;
         color: $primaryBrandColor;
         background: $white;
-        border-radius: $ROUND_BORDER_RADIUS;
+        border-radius: $border-radius-100;
         
         &:hover {
             text-decoration: none;
@@ -84,7 +84,7 @@ button {
 .button-disabled {
     cursor: pointer;
     margin-bottom: 0.5em;
-    border-radius: $ROUND_BORDER_RADIUS;
+    border-radius: $border-radius-100;
     box-shadow: none !important;
     
     span {

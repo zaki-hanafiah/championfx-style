@@ -1,6 +1,6 @@
 .sidebar-left {
     ul {
-        font-size: $FONT_SIZE_N;
+        font-size: $font-size-regular;
         
         li {
             list-style-image: none;
@@ -13,7 +13,7 @@
                 background: $borderColor;
             }
             a {
-                font-size: $FONT_SIZE_N;
+                font-size: $font-size-regular;
                 font-weight: normal;
                 text-decoration: none;
                 display: block;

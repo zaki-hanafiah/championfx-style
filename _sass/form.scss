@@ -1,4 +1,7 @@
-select, input, textarea {
+/** 
+ * Form elements
+ */
+ select, input, textarea {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
@@ -7,13 +10,13 @@ select, input, textarea {
     color: $contentColor;
     background: $contentInverseColor;
     outline: none;
-    border-radius: $BORDER_RADIUS;
+    border-radius: $border-radius;
     border: 1px solid $secondaryBorderColor;
 }
 
 select, input {
     &.secondary-input {
-        border-radius: $ROUND_BORDER_RADIUS;
+        border-radius: $border-radius-100;
         border: 1px solid $borderColor;
         padding: 5px 10px;
     }
@@ -24,7 +27,7 @@ fieldset {
 }
 
 .hint {
-    font-size: $FONT_SIZE_XS;
+    font-size: $font-size-small;
     color: $secondaryContentColor;
     margin-top: 5px;
 }
@@ -63,13 +66,13 @@ fieldset {
     border: 1px solid $secondaryBorderColor;
     color: $contentColor;
     background: $contentInverseColor;
-    border-radius: $BORDER_RADIUS;
+    border-radius: $border-radius;
 }
 
 .text-display {
     display: block;
-    font-weight: 400;
+    font-weight: $font-weight-regular;
     border: 1px solid $fillColor;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: $border-radius;
 }

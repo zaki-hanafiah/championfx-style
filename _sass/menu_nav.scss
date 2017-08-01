@@ -30,7 +30,7 @@
             text-align: left;
             outline: none;
             font-size: 1rem;
-            font-weight: 400;
+            font-weight: $font-weight-regular;
             
             &.disabled, &.disabled:hover {
                 opacity: 0.5;

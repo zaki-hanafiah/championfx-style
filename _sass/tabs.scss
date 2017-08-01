@@ -13,7 +13,7 @@
             border: none;
             list-style-image: none;
             background: $white;
-            border-radius: $BORDER_RADIUS $BORDER_RADIUS 0 0;
+            border-radius: $border-radius $border-radius 0 0;
             margin: 0 2px 0 0;
             padding: 0 10px;
             border-bottom: 3px solid $white;
@@ -53,7 +53,7 @@
             li {
                 list-style-image: none;
                 background: $white;
-                border-radius: $BORDER_RADIUS $BORDER_RADIUS 0 0;
+                border-radius: $border-radius $border-radius 0 0;
                 margin-top: 5px !important;
                 padding: 0 10px 5px;
                 border-bottom: 3px solid $white;
