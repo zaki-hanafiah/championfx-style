@@ -316,7 +316,7 @@
     margin: -8px 0;
     padding: 0.25em;
     border: 2px solid $fillColor;
-    border-radius: $border-radius-100;
+    border-radius: $border-radius;
     height: 32px;
 }
 #ui-datepicker-div.ui-datepicker .ui-datepicker-buttonpane button, #ui-timepicker-div.ui-timepicker .ui-timepicker-table .ui-timepicker-buttonpane button {
@@ -493,7 +493,7 @@
     margin: -2px 0;
     padding: 0.25em;
     border: 2px solid $fillColor;
-    border-radius: $border-radius-100;
+    border-radius: $border-radius;
     height: 32px;
 }
 
