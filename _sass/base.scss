@@ -1,13 +1,18 @@
+// Core variables, mixin and functions
+@import 'fonts';
+@import 'colors';
 @import 'variables';
+@import 'utils';
 @import 'mixin';
 @import 'functions';
-@import 'typography';
-@import 'common';
-@import 'utils/utils';
 
-@import 'button';
+// Core css
+@import 'common';
+@import 'typography';
 @import 'form';
+@import 'button';
 @import 'notifications';
 @import 'header';
 @import 'logo';
+
 @import 'oauth';

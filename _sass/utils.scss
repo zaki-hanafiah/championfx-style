@@ -89,3 +89,15 @@
 .invisible {
     display: none !important;
 }
+
+// Form hint
+.hint {
+    font-size: $font-size-small;
+    color: $secondaryContentColor;
+    margin-top: 5px;
+}
+
+.secondary-hint {
+    @extend .hint;
+    padding-left: 10px;
+}

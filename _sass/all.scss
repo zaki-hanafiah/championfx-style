@@ -1,25 +1,26 @@
+/**
+ * ChampionStyle
+ * Copyright 2016-2017 ChampionFX.
+ */
+
+// Core mixins, functions and variables
 @import 'base';
 
-// components
-@import 'button';
-@import 'form';
-@import 'notifications';
-@import 'header';
-@import 'logo';
-@import 'oauth';
-
+// Components
 @import 'table';
 @import 'sidebar';
-@import 'tooltip';
-@import 'menu';
-@import 'jquery-ui-custom';
-@import 'accordion';
-@import 'tabs';
-@import 'dialog';
+@import 'lists';
 @import 'loading';
 @import 'chartButtons';
 @import 'icons';
+@import 'dialog';
+@import 'tooltip';
+
+// Components with js
+@import 'jquery-ui-custom';
+@import 'accordion';
 @import 'picker';
+@import 'tabs';
 @import 'tabs_subsection';
+@import 'menu';
 @import 'menu_nav';
-@import 'lists';

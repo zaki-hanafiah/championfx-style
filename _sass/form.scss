@@ -27,17 +27,6 @@ fieldset {
     border: 1px solid $fillColor;
 }
 
-.hint {
-    font-size: $font-size-small;
-    color: $secondaryContentColor;
-    margin-top: 5px;
-}
-
-.secondary-hint {
-    @extend .hint;
-    padding-left: 10px;
-}
-
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: $secondaryContentColor;
