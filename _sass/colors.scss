@@ -1,23 +1,45 @@
-/* stylelint-disable */
-
 /** 
- * Colors
+ * Base - Colors
  */
 
-$black: #000;
-$white: #fff;
-$primaryBrandColor: #004385;
-$darkPrimaryBrandColor: #013365;
-$secondaryBrandColor: #004385;
-$contentColor: #000;
-$contentInverseColor: #fff;
-$secondaryContentColor: #c2c2c2;
-$borderColor: #dedede;
-$secondaryBorderColor: #31679c;
-$fillColor: #f2f2f2;
-$positiveColor: #004385;
-$darkPositiveColor: #013365;
-$negativeColor: #c03;
-$noticeColor: #fef1cf;
-$chartColor: #6b8fb9;
-$chartAreaColor: rgba(128, 179, 236, 0.3);
+/* stylelint-disable */
+// Color variables
+$black:        #000 !default;
+$gray-darker:  #9b9b9b !default;
+$gray-dark:    #c2c2c2 !default;
+$gray:         #dedede !default;
+$gray-light:   #f2f2f2 !default;
+$white:        #fff !default;
+
+$blue-dark:    #013365 !default;
+$blue:         #004385 !default;
+$blue-light:   #31679c !default;
+$blue-lighter: #6b8fb9 !default;
+
+$green:        #1ec522 !default;
+$red:          #c03 !default;
+$yellow:       #fef1cf !default;
+
+/* stylelint-enable */
+// Brand colors
+$primaryBrandColor:     $blue;
+$darkPrimaryBrandColor: $blue-dark;
+$secondaryBrandColor:   $blue;
+
+$contentColor:          $black;
+$contentInverseColor:   $white;
+$secondaryContentColor: $gray-dark;
+
+$borderColor:           $gray;
+$secondaryBorderColor:  $blue-lighter;
+
+$fillColor:             $gray-light;
+
+$positiveColor:         $blue;
+$darkPositiveColor:     $blue-dark;
+$negativeColor:         $red;
+
+$noticeColor:           $yellow;
+
+$chartColor:            $blue-lighter;
+$chartAreaColor:      rgba(128, 179, 236, 0.3);

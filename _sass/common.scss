@@ -1,5 +1,5 @@
 /** 
- * Body
+ * Common
  */
 body {
     font-family: $base-font-family;
@@ -20,111 +20,31 @@ i {
     font-style: italic;
 }
 
-// .primary-color {
-//     background-color: $primaryBrandColor;
-// }
+// Header
+header, .header {
+    background: $primaryBrandColor;
+    
+    a {
+        color: $contentInverseColor;
+        text-decoration: none;
+    }
+}
 
-// .primary-bg-color {
-//     background-color: $white;
-// }
-
-// .secondary-color {
-//     color: $secondaryBrandColor;
-// }
-
-// .secondary-bg-color {
-//     background-color: $secondaryBrandColor;
-// }
-
-// .primary-color-dark {
-//     background-color: $darkPrimaryBrandColor;
-// }
-
-// .primary-bg-color-dark {
-//     background-color: $darkPrimaryBrandColor;
-// }
-
-// .content-inverse-color {
-//     color: $contentInverseColor;
-// }
-
-// .fill-bg-color {
-//     background-color: $fillColor;
-// }
-
-// .border-color {
-//     color: $borderColor;
-// }
-
-// .border-bottom {
-//     border-bottom: 1px solid $borderColor;
-// }
-
-// .contract_error {
-//     background-color: $noticeColor !important;
-// }
-// //header
-// header, #header, .header {
-//     border-top: 2px solid $primaryBrandColor;
-//     border-bottom: 4px solid $secondaryBrandColor;
-//     background: $primaryBrandColor;
-// }
-
-// #header a, .header a {
-//     color: $contentInverseColor;
-//     text-decoration: none;
-// }
-
-// #header #menu-top li.active a, .header #menu-top li.active a {
-//     color: $secondaryBrandColor;
-// }
-
-// //footer rules
-// #footer {
-//     #footer-regulatory a {
-//         font-size: $FONT_SIZE_XS;
-//     }
-//     a {
-//         font-size: $font-size-small;
-//         font-weight: $font-weight-regular;
-//         color: $contentInverseColor;
-//     }
-// }
-
-// .invisible {
-//     display: none !important;
-// }
-
-// .center-text {
-//     text-align: center;
-// }
-
-// .separator-line {
-//     margin-top: 10px;
-//     margin-bottom: 10px;
-// }
-
-// .box {
-//     padding: 10px 30px;
-// }
-
-// .separator {
-//     height: 2px;
-// }
-
-// .bordered {
-//     border: 1px solid $primaryBrandColor;
-// }
+// Footer
+footer {
+    #footer-regulatory a {
+        font-size: $font-size-x-small;
+    }
+    a {
+        font-size: $font-size-small;
+        color: $contentInverseColor;
+    }
+}
 
 label {
     display: block;
     margin-bottom: 5px;
 }
-
-// .vertical-center {
-//     align-items: center;
-//     display: flex;
-// }
 
 table sup, sup {
     color: $secondaryBrandColor;

@@ -1,4 +1,13 @@
-@import 'common_import';
+@import 'base';
+
+// components
+@import 'button';
+@import 'form';
+@import 'notifications';
+@import 'header';
+@import 'logo';
+@import 'oauth';
+
 @import 'table';
 @import 'sidebar';
 @import 'tooltip';

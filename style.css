@@ -1,4 +1,4 @@
-main {
+/*main {
   width: 100%;
   display: block;
   margin: 0 auto;
@@ -18,9 +18,9 @@ main {
 .palette{
   padding: 10px;
   border: 1px solid #000;
-}
+}*/
 /*Header */
-.dark-blue {
+/*.dark-blue {
     background: #15212d;
 }
 #header{
@@ -38,8 +38,8 @@ main {
 #topbar-info div {
     display: inline-flex;
     padding: 0 10px;
-}
-[role="tab-content"] .tab-content {
+}*/
+/*[role="tab-content"] .tab-content {
   display: none;
 }
 #tab-1 {
@@ -50,7 +50,7 @@ main {
 }
 .tab-content {
     font-size: initial;
-}
+}*/
 .code-sample {
   margin-top: 1rem;
   margin-bottom: 3rem;

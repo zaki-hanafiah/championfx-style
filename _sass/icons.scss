@@ -45,6 +45,7 @@
   </svg>'
     );
 }
+
 .comparison-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -59,6 +60,7 @@
       </svg>'
     );
 }
+
 .crosshair-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -68,6 +70,7 @@
       <line fill="none" stroke="#{rgba($primaryBrandColor,1)}" stroke-miterlimit="10" stroke-width="2" x1="25" y1="29.905" x2="25" y2="41.5"/></svg>'
     );
 }
+
 .dot-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -76,6 +79,7 @@
       <circle fill="#{rgba($primaryBrandColor,1)}" cx="11.734" cy="25" r="3.234"/></svg>'
     );
 }
+
 .dot-w-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -84,6 +88,7 @@
       <circle fill="#{rgba($contentInverseColor,1)}" cx="11.734" cy="25" r="3.234"/></svg>'
     );
 }
+
 .drawing-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
@@ -94,6 +99,7 @@
   </svg>'
     );
 }
+
 .drawing-w-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
@@ -104,6 +110,7 @@
   </svg>'
     );
 }
+
 .indicator-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -115,18 +122,21 @@
       <rect fill="#{rgba($primaryBrandColor,1)}" x="38.98" y="18.83" width="3.88" height="23.67"/></svg>'
     );
 }
+
 .line-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
       <line fill="none" stroke="#{rgba($primaryBrandColor,1)}" stroke-miterlimit="10" stroke-width="2" x1="7.14" y1="25" x2="42.86" y2="25"/></svg>'
     );
 }
+
 .line-w-icon {
     background-image: svg-url(
         '<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
       <line fill="none" stroke="#{rgba($contentInverseColor,1)}" stroke-miterlimit="10" stroke-width="2" x1="7.14" y1="25" x2="42.86" y2="25"/></svg>'
     );
 }
+
 .linedot-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -136,6 +146,7 @@
       <line fill="none" stroke="#{rgba($primaryBrandColor,1)}" stroke-miterlimit="10" stroke-width="2" x1="11.734" y1="25" x2="38.266" y2="25"/></svg>'
     );
 }
+
 .linedot-w-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -145,6 +156,7 @@
       <line fill="none" stroke="#{rgba($contentInverseColor,1)}" stroke-miterlimit="10" stroke-width="2" x1="11.734" y1="25" x2="38.266" y2="25"/></svg>'
     );
 }
+
 .ohlc-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -153,6 +165,7 @@
       <line fill="none" stroke="#{rgba($primaryBrandColor,1)}" stroke-miterlimit="10" stroke-width="2" x1="25" y1="35.597" x2="36.088" y2="35.597"/></svg>'
     );
 }
+
 .ohlc-w-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -161,6 +174,7 @@
       <line fill="none" stroke="#{rgba($contentInverseColor,1)}" stroke-miterlimit="10" stroke-width="2" x1="25" y1="35.597" x2="36.088" y2="35.597"/></svg>'
     );
 }
+
 .share-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -170,6 +184,7 @@
       <circle fill="#{rgba($primaryBrandColor,1)}" cx="34.17" cy="35.82" r="3.5"/></svg>'
     );
 }
+
 .share-w-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
@@ -179,18 +194,21 @@
       <circle fill="#{rgba($contentInverseColor,1)}" cx="34.17" cy="35.82" r="3.5"/></svg>'
     );
 }
+
 .spline-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
       <path fill="none" stroke="#{rgba($primaryBrandColor,1)}" stroke-miterlimit="10" stroke-width="2" d="M8.5,23.733l3-3.559a6.468,6.468,0,0,1,10.52.9l4.619,7.862a6.468,6.468,0,0,0,10.858.458l4-5.656"/></svg>'
     );
 }
+
 .spline-w-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
      <path fill="none" stroke="#{rgba($contentInverseColor,1)}" stroke-miterlimit="10" stroke-width="2" d="M8.5,23.733l3-3.559a6.468,6.468,0,0,1,10.52.9l4.619,7.862a6.468,6.468,0,0,0,10.858.458l4-5.656"/></svg>'
     );
 }
+
 .table-icon {
     background-image: svg-url(
         '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">

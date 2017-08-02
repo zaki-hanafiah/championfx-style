@@ -1,11 +1,11 @@
-// @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import 'mixin';
 @import 'variables';
-@import 'colors';
+@import 'mixin';
 @import 'functions';
-@import 'common';
-@import 'button';
 @import 'typography';
+@import 'common';
+@import 'utils/utils';
+
+@import 'button';
 @import 'form';
 @import 'notifications';
 @import 'header';

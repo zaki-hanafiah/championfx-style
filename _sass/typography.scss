@@ -1,5 +1,5 @@
 /** 
- *Typography
+ * Typography
  */
 
 h1, h2, h3, h4, li, p, a, span {
@@ -40,17 +40,17 @@ p {
 
 // Reset margins and paddings on lists
 ol, ul {
-  list-style: none;
-  margin: 0 0 0 2rem;
-  padding-left: 2rem;
+    list-style: none;
+    margin: 0 0 0 2rem;
+    padding-left: 2rem;
 
-  li {
-    margin: 1rem 0;
+    li {
+        margin: 1rem 0;
 
-    ol, ul {
-      margin: 0 0 0 2rem;
+        ol, ul {
+            margin: 0 0 0 2rem;
+        }
     }
-  }
 }
 
 /** 
@@ -64,15 +64,3 @@ a, a:visited {
         color: $darkPrimaryBrandColor;
     }
 }
-
-// .font-n {
-//     font-size: $font-size-regular;
-// }
-
-// .font-s {
-//     font-size: $font-size-small;
-// }
-
-// .font-xs {
-//     font-size: $FONT_SIZE_XS;
-// }

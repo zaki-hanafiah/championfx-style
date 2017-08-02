@@ -1,0 +1,91 @@
+/** 
+ * Utilities
+ */
+
+// Background colors
+.primary-color {
+    background-color: $primaryBrandColor;
+}
+
+.primary-bg-color {
+    background-color: $white;
+}
+
+.secondary-bg-color {
+    background-color: $secondaryBrandColor;
+}
+
+.primary-color-dark {
+    background-color: $darkPrimaryBrandColor;
+}
+
+.primary-bg-color-dark {
+    background-color: $darkPrimaryBrandColor;
+}
+
+.fill-bg-color {
+    background-color: $fillColor;
+}
+
+// Content colors
+.secondary-color {
+    color: $secondaryBrandColor;
+}
+
+.content-inverse-color {
+    color: $contentInverseColor;
+}
+
+.border-color {
+    color: $borderColor;
+}
+
+// Alignment
+.vertical-center {
+    align-items: center;
+    display: flex;
+}
+.center-text {
+    text-align: center;
+}
+
+// Spacer
+.separator-line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.separator {
+    height: 2px;
+}
+
+// Box
+.box {
+    padding: 10px 30px;
+}
+
+.bordered {
+    border: 1px solid $primaryBrandColor;
+}
+
+// Text
+.font-n {
+    font-size: $font-size-regular;
+}
+
+.font-s {
+    font-size: $font-size-small;
+}
+
+.font-xs {
+    font-size: $font-size-x-small;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+// Visibility
+.invisible {
+    display: none !important;
+}
