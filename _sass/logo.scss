@@ -1,3 +1,7 @@
+/**
+ * Logo
+ */
+
 .fx-logo--default {
     content: url('./images/logo/CFX_logo.svg');
 }
@@ -10,26 +14,26 @@
     display: flex;
     align-items: center;
 
-    &--icon {
+    &__icon {
         height: 5.5rem;
         content: url('./images/logo/CFX_logo_icon.svg');
     }
-    &--wordmark {
+    &__wordmark {
         height: 2.5rem;
         margin: 2.5rem 1rem 0.5rem;
         content: url('./images/logo/CFX_logo_wordmark.svg');
     }
-    &--icon--light {
+    &__icon--light {
         height: 5.5rem;
         content: url('./images/logo/CFX_logo_icon_light.svg');
     }
-    &--wordmark--light {
+    &__wordmark--light {
         height: 2.5rem;
         margin: 2.5rem 1rem 0.5rem;
         content: url('./images/logo/CFX_logo_wordmark_light.svg');
     }
     @media screen and (max-width: 769px) {
-        .fx-logo--wordmark, .fx-logo--wordmark--light {
+        .fx-logo__wordmark, .fx-logo__wordmark--light {
             display: none;
         }
     }
