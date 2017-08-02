@@ -19,16 +19,12 @@
     <div id="topbar" class="primary-color-dark"></div>
     <div id="header" class="primary-color">
         <div class="container">
-            <div class="logo-wrapper">
-                <a href="https://www.champion-fx.com" class="logo-parent">
-                    <div class="logo">
-                        <div></div>
-                    </div>
-                    <div class="mobile-hide binary-logo-text">
-                        <div></div>
-                    </div>
-                </a>
-            </div>
+            <a href="https://www.champion-fx.com">
+                <div class="fx-logo" style="padding: 10px 0;">
+                    <span class="fx-logo--icon--light"></span>
+                    <span class="fx-logo--wordmark--light"></span>
+                </div>
+            </a>
         </div>
     </div>
     <div id="content">
@@ -358,49 +354,55 @@
                     </div>
                 </div>
 
-                <div class="f-row logo-section">
+               <div class="f-row logo-section">
                     <div class="f-item">
                         <h1>Logo and Favicons</h1>
                     </div>
                 </div>
                 <div class="f-row logo-section">
                     <div class="f-item">
-                        <h3>Logo (separate)</h3>
-                        <div class="logo-wrapper primary-color">
-                            <a class="logo-parent" href="https://champion-fx.com">
-                                <div class="logo">
-                                    <div></div>
-                                </div>
-                                <div class="mobile-hide binary-logo-text">
-                                    <div></div>
-                                </div>
-                            </a>
+                        <p class="title">ChampionFX logo</p>
+                        <img style="width: 50%" class="fx-logo--default" />
+                        <img style="width: 50%" class="primary-color fx-logo--light" />
+
+                        <p class="title">ChampionFX logo (separate)</p>
+                        <div class="fx-logo primary-color">
+                            <span class="fx-logo--icon--light"></span>
+                            <span class="fx-logo--wordmark--light"></span>
                         </div>
-                        <div style="margin-top:10px;">
-                            <h3>Logo (combined)</h3>
-                            <img style="width:210px;" src="./images/logo/cfx_logo.png" />
-                        </div>
-                        <div style="margin-top:10px;">
-                            <h3>Favicon</h3>
-                            <img style="width:18px;" src="./images/favicons/favicon-32x32.png" />
-                        </div>
+
+                        <p class="title">Icon</p>
+                        <span class="primary-color fx-logo--icon--light"></span>
+                        <span class="fx-logo--icon"></span>
+
+                        <p class="title">Wordmark</p>
+                        <span class="fx-logo--wordmark--light primary-color"></span>
+                        <span class="fx-logo--wordmark"></span>
+
+                        <p class="title">Favicon</p>
+                        <img src="./images/favicons/favicon-32x32.png" />
                     </div>
                     <div class="f-item">
                         <div class="code-sample">
                             <pre class="prettyprint">
                     <code>
-    Logo (separate):
-    &lt;a class=&quot;logo-parent&quot; href=&quot;https://champion-fx.com&quot;&gt;
-        &lt;div class=&quot;logo&quot;&gt;
-            &lt;div&gt;&lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;mobile-hide binary-logo-text&quot;&gt;
-            &lt;div&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/a&gt;
-    Logo (combined):
-    &lt;img src=&quot;https://style.binary.com/
-                images/logo/binary_logo_dark.svg&quot; /&gt;
+    ChampionFX logo
+    &lt;img class="fx-logo--default" /&gt;
+    &lt;img class="primary-color fx-logo--light" /&gt;
+
+   ChampionFX logo (separate)
+    &lt;div class="fx-logo primary-color"&gt;
+        &lt;span class="fx-logo--icon--light"&gt;&lt;/span&gt;
+        &lt;span class="fx-logo--wordmark--light"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    Icon
+    &lt;span class="fx-logo--icon--light"&gt;&lt;/span&gt;
+    &lt;span class="fx-logo--icon"&gt;&lt;/span&gt;
+
+    Wordmark
+    &lt;span class="fx-logo--wordmark--light"&gt;&lt;/span&gt;
+    &lt;span class="fx-logo--wordmark"&gt;&lt;/span&gt;
+
     Favicon:
     &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;57x57&quot;
     href=&quot;https://style.champion-fx.com/images/
