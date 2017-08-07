@@ -15,21 +15,21 @@
     align-items: center;
 
     &__icon {
-        height: 5.5rem;
+        height: 4rem;
         content: url('./images/logo/CFX_logo_icon.svg');
     }
     &__wordmark {
-        height: 2.5rem;
-        margin: 2.5rem 1rem 0.5rem;
+        height: 2rem;
+        margin: 2rem 0.5rem 0.5rem;
         content: url('./images/logo/CFX_logo_wordmark.svg');
     }
     &__icon--light {
-        height: 5.5rem;
+        height: 4rem;
         content: url('./images/logo/CFX_logo_icon_light.svg');
     }
     &__wordmark--light {
-        height: 2.5rem;
-        margin: 2.5rem 1rem 0.5rem;
+        height: 2rem;
+        margin: 2rem 0.5rem 0.5rem;
         content: url('./images/logo/CFX_logo_wordmark_light.svg');
     }
     @media screen and (max-width: 769px) {

@@ -52,15 +52,3 @@ ol, ul {
         }
     }
 }
-
-/** 
- * Links
- */
-a, a:visited {
-    color: $primaryBrandColor;
-    font-weight: $font-weight-bold;
-
-    &:hover, &:active {
-        color: $darkPrimaryBrandColor;
-    }
-}

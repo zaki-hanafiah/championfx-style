@@ -1,0 +1,76 @@
+/** 
+ *  ChampionFX Icons
+ */
+ 
+ .fx {
+    display: inline-block;
+}
+
+// Mobile menu icons
+.fx-about:before {
+    content: url('./images/assets/about.svg');
+}
+
+.fx-account-real:before {
+    content: url('./images/assets/real.svg');
+}
+
+.fx-account-virtual:before {
+    content: url('./images/assets/virtual.svg');
+}
+
+.fx-arrow:before {
+    content: url('./images/assets/arrow.svg');
+}
+
+.fx-binary:before {
+    content: url('./images/assets/binary.svg');
+}
+
+.fx-dollar:before {
+    content: url('./images/assets/cashier.svg');
+}
+
+.fx-contact:before {
+    content: url('./images/assets/contact.svg');
+}
+
+.fx-gmt:before {
+    content: url('./images/assets/gmt.svg');
+}
+
+.fx-language:before {
+    content: url('./images/assets/language.svg');
+}
+
+.fx-login:before {
+    content: url('./images/assets/log_in.svg');
+}
+
+.fx-mainmenu:before {
+    content: url('./images/assets/main_menu.svg');
+}
+
+.fx-moremenu:before {
+    content: url('./images/assets/more_menu.svg');
+}
+
+.fx-mt5-o:before {
+    content: url('./images/assets/mt5.svg');
+}
+
+.fx-partnership:before {
+    content: url('./images/assets/partnership.svg');
+}
+
+.fx-setting:before {
+    content: url('./images/assets/settings.svg');
+}
+
+.fx-signout:before {
+    content: url('./images/assets/sign_out.svg');
+}
+
+.fx-trading:before {
+    content: url('./images/assets/trading.svg');
+}

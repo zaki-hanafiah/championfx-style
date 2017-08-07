@@ -1,6 +1,18 @@
 /** 
  * Common
  */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; // to avoid 'width' affected by 'border' or 'padding'
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -30,14 +42,32 @@ header, .header {
     }
 }
 
+/** 
+ * Links
+ */
+a, a:visited {
+    color: $primaryBrandColor;
+    font-weight: $font-weight-bold;
+    cursor: pointer;
+
+    &:hover, &:active {
+        color: $darkPrimaryBrandColor;
+    }
+}
+
 // Footer
 footer {
     #footer-regulatory a {
         font-size: $font-size-x-small;
     }
-    a {
+    ul li a, a:visited {
         font-size: $font-size-small;
         color: $contentInverseColor;
+        text-decoration: none;
+        
+        &:hover, &:active {
+            color: $contentInverseColor;
+        }
     }
 }
 
