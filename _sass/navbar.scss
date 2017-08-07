@@ -34,7 +34,7 @@
     
     &:before {
       position: absolute;
-      content: url('../images/assets/main_menu.svg');
+      content: url('./images/assets/main_menu.svg');
       width: 3rem;
       height: 2.4rem;
       top: 0;
@@ -89,19 +89,6 @@
         }
       }
     }
-
-    // ul li {
-    //   display: inline-block;
-    //   position: relative;
-    //   z-index: 100;
-    //   ul {
-    //     position: absolute;
-    //     background: $primaryBrandColor;
-    //     width: 100%;
-    //     top: 5rem;
-    //     z-index: 101;
-    //   }
-    // }
 
     // Desktop menu css
     @media (min-width: 1200px) {
@@ -184,7 +171,7 @@
     &__toggle {
       &:after {
         display: inline-block;
-        content: url('../images/assets/more_menu.svg');
+        content: url('./images/assets/more_menu.svg');
         width: 2rem;
         height: 2rem;
         margin-left: auto;
