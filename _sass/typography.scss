@@ -15,17 +15,17 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 36px;
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 28px;
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 22px;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 h4 {
@@ -35,20 +35,20 @@ h4 {
 
 // Reset margins on paragraphs
 p {
-    margin: 1rem 0;
+    margin: 10px 0;
 }
 
 // Reset margins and paddings on lists
 ol, ul {
     list-style: none;
-    margin: 0 0 0 2rem;
-    padding-left: 2rem;
+    margin: 0 0 0 20px;
+    padding-left: 20px;
 
     li {
-        margin: 1rem 0;
+        margin: 10px 0;
 
         ol, ul {
-            margin: 0 0 0 2rem;
+            margin: 0 0 0 20px;
         }
     }
 }

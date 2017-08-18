@@ -251,7 +251,7 @@
 }
 
 .ui-datepicker .ui-datepicker-title select {
-    font-size: 1.6rem;
+    font-size: $font-size-regular;
     margin: 1px 0;
     outline: none;
 }
@@ -267,7 +267,7 @@
 
 .ui-datepicker table {
     width: 100%;
-    font-size: 1.6rem;
+    font-size: $font-size-regular;
     border-collapse: collapse;
     border: 2px solid $fillColor;
     border-top: 0;
@@ -436,7 +436,7 @@
         border-collapse: collapse;
         border-left: 2px solid $fillColor;
         border-bottom: 2px solid $fillColor;
-        font-size: 1.6rem;
+        font-size: $font-size-regular;
     }
 
     .ui-timepicker-minutes table {
@@ -519,10 +519,10 @@
 ----------------------------------*/
 body .ui-widget {
     font-family: $font-stack;
-    font-size: 1.6rem;
+    font-size: $font-size-regular;
 
     .ui-widget {
-        font-size: 1.6rem;
+        font-size: $font-size-regular;
     }
 }
 
@@ -531,7 +531,7 @@ body .ui-widget {
 .ui-widget select,
 .ui-widget textarea {
     font-family: $font-stack;
-    font-size: 1.6rem;
+    font-size: $font-size-regular;
 }
 
 #ui-datepicker-div {

@@ -29,7 +29,7 @@
             white-space: nowrap;
             text-align: left;
             outline: none;
-            font-size: 1rem;
+            font-size: $font-size-x-small;
             font-weight: $font-weight-regular;
             
             &.disabled, &.disabled:hover {
