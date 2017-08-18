@@ -113,6 +113,9 @@
       box-shadow: none;
       transition: none;
 
+      > ul {
+        overflow: hidden;
+      }
       ul li {
         display: inline-block;
         text-align: left;
