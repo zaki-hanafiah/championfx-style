@@ -2,39 +2,40 @@
  * Logo
  */
 
-.fx-logo--default {
-    content: url('./images/logo/CFX_logo.svg');
-}
-
-.fx-logo--light {
-    content: url('./images/logo/CFX_logo_light.svg');
-}
-
 .fx-logo {
     display: flex;
     align-items: center;
-
-    &__icon {
-        height: 40px;
-        content: url('./images/logo/CFX_logo_icon.svg');
+    flex-direction: row;
+    
+    .fx-logo__icon, .fx-logo__icon--light {
+        display: block;
+        width: 30px;
+        height: 100%;
     }
-    &__wordmark {
-        height: 20px;
-        margin: 20px 5px 5px;
-        content: url('./images/logo/CFX_logo_wordmark.svg');
-    }
-    &__icon--light {
-        height: 40px;
-        content: url('./images/logo/CFX_logo_icon_light.svg');
-    }
-    &__wordmark--light {
-        height: 20px;
-        margin: 20px 5px 5px;
-        content: url('./images/logo/CFX_logo_wordmark_light.svg');
+    .fx-logo__wordmark, .fx-logo__wordmark--light {
+        display: block;
+        width: 90px;
+        margin: 27px 5px 5px;
     }
     @media screen and (max-width: 769px) {
         .fx-logo__wordmark, .fx-logo__wordmark--light {
             display: none;
         }
     }
+}
+
+.fx-logo__icon:before {
+    content: url('./images/logo/CFX_logo_icon.svg');
+}
+
+.fx-logo__wordmark:before {
+    content: url('./images/logo/CFX_logo_wordmark.svg');
+}
+
+.fx-logo__icon--light:before {
+    content: url('./images/logo/CFX_logo_icon_light.svg');
+}
+
+.fx-logo__wordmark--light:before {
+    content: url('./images/logo/CFX_logo_wordmark_light.svg');
 }
