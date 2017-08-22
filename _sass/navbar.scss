@@ -146,6 +146,9 @@
               min-width: 245px;
             }
           }
+          li:not(:last-child) { /* sub-menu separator line */
+            border-bottom: 1px solid $secondaryBorderColor;
+          }
         }
       }
       ul li {
@@ -157,9 +160,8 @@
           padding: 0 5px;
           min-width: 100px;
 
-          li:not(:last-child) { /* sub-menu separator line */
+          li {
             display: block;
-            border-bottom: 1px solid $secondaryBorderColor;
           }
         }
       }

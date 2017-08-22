@@ -98,10 +98,6 @@ body .topbar {
 
 #topbar, #topbar a, .topbar, .topbar a {
     color: $contentInverseColor;
-    
-    &:hover {
-        text-decoration: none;
-    }
 }
 
 #header #binary-logo-text {
