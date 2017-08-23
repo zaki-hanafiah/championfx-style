@@ -6,9 +6,7 @@ html {
     box-sizing: border-box; // to avoid 'width' affected by 'border' or 'padding'
 }
 
-*, 
-*::before, 
-*::after {
+*, *:before, *:after {
     box-sizing: inherit;
 }
 
