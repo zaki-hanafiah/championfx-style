@@ -16,7 +16,11 @@
   .navbar__brand {
     position: absolute;
     height: 36px;
-    width: 95%;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     justify-content: center;
     @media (min-width: 1200px) {
       position: relative;
