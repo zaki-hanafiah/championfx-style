@@ -87,7 +87,8 @@
                 height: initial;
                 border-top: 1px solid $fillColor;
                 padding: 20px 40px;
-                
+            }
+            > ul.account-dropdown {
                 li {
                     a {
                         height: 50px;
@@ -189,7 +190,6 @@
                 a {
                     display: flex;
                     align-items: center;
-                    padding: 15px;
                     color: $primaryBrandColor;
                     font-weight: 400;
                     text-align: left;

@@ -23,6 +23,9 @@ body {
     background: $contentInverseColor;
     background-repeat: repeat-x;
     background-position: bottom;
+    @media (max-width: 1199px) {
+        cursor: pointer; /* handle iOS click */
+    }
 }
 
 i {
