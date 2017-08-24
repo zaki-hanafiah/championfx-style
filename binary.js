@@ -75,19 +75,7 @@ function topNavMenuListener() {
     });
 }
 
-var clickEvent = (function() {
-  if ('ontouchstart' in document.documentElement === true)
-    return 'touchstart';
-  else
-    return 'click';
-})();
-
 function documentListener() {
-	// calculate mobile menu height
-	$('.navbar__nav').height($(window).innerHeight() + 40);		
-	$(window).on('orientationchange resize', () => {	
-		$('.navbar__nav').height($(window).innerHeight() + 40);		
-	});
 	$(document).on('click', function(e){
 		e.stopPropagation();
 		hide_menu($('#all-accounts, #all-accounts-top'));
@@ -206,6 +194,12 @@ $(document).ready(function() {
     documentListener();
     langListener();
     tabListener();
+	
+	// calculate mobile menu height
+	$('.navbar__nav').height($(window).innerHeight());		
+	$(window).on('orientationchange resize', () => {	
+		$('.navbar__nav').height($(window).innerHeight());		
+	});
 });
 
 /*
