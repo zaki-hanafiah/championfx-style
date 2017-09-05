@@ -1,6 +1,6 @@
 .navbar {
     position: relative;
-    height: 50px;
+    height: 76px;
     background: $primaryBrandColor;
     font-size: 14px;
 
@@ -10,12 +10,15 @@
         justify-content: space-between;
         height: 100%;
         width: 100%;
+        @media (min-width: 1200px) {
+            width: 1100px;
+        }
     }
 
     // Navbar brand/logo
     .navbar__brand {
         position: absolute;
-        height: 36px;
+        height: 40px;
         top: 0;
         bottom: 0;
         left: 0;
@@ -28,12 +31,13 @@
             margin-left: 0;
         }
 
-        .fx-logo--icon--light {
-            height: 36px;
-        }
-        .fx-logo--wordmark--light {
-            height: 16px;
-        }
+        // .fx-logo--icon--light {
+        //     height: 50px;
+        //     width: 32px;
+        // }
+        // .fx-logo--wordmark--light {
+        //     height: 30px;
+        // }
     }
 
     // Navbar mobile menu toggle
@@ -83,7 +87,15 @@
         @media (max-width: 1199px) {
             > ul.logged-out, > ul.navbar__nav__menu {
                 overflow-y: scroll;
-                padding: 20px;
+                padding: 20px 40px;
+                li {
+                    a {
+                        height: 50px;
+                    }
+                    ul li a {
+                        height: 35px;
+                    }
+                }
             }
             > ul.logged-in {
                 height: initial;
@@ -92,14 +104,15 @@
             }
             > ul.account-dropdown {
                 li {
-                    a {
-                        height: 50px;
-                        color: $primaryBrandColor;
-                        padding: 0;
-                        margin: 0;
-                    }
                     ul {
                         padding: 0;
+
+                        li a {
+                            height: 50px;
+                            color: $primaryBrandColor;
+                            padding: 0;
+                            margin: 0;
+                        }
                     }
                 }
             }
@@ -109,7 +122,7 @@
             margin: 0;
 
             li a {
-                height: 50px;
+                height: 76px;
             }
             li ul {
                 display: none; /* hide sub-menu */
@@ -134,7 +147,7 @@
             margin: auto;
             width: 100%;
             border-right: 0;
-            height: 50px !important;
+            height: 76px !important;
             overflow: visible;
             background: none;
             box-shadow: none;
@@ -143,9 +156,11 @@
             > ul {
                 overflow: hidden;
                 padding: 0;
+                height: 100%;
                 
                 &.logged-in {
                     height: 50px;
+                    margin: 0 0 0 auto !important;
                 }
                 &.account-dropdown {
                     li {
@@ -164,7 +179,11 @@
             ul li {
                 display: inline-block;
                 text-align: left;
+                height: 100%;
 
+                a {
+                    height: 100%;
+                }
                 ul {
                     position: absolute;
                     padding: 0 5px;
@@ -208,7 +227,7 @@
             @media (min-width: 1200px) {
                 display: inline-block;
                 width: initial;
-                margin: 0 0 0 auto !important;
+                margin: auto !important;
                 padding: 0;
 
                 .fx {
@@ -332,6 +351,8 @@
         position: fixed;
         width: 100%;
         z-index: 1;
+        height: 50px;
+        transition: 0.3s;
     }
 }
 
