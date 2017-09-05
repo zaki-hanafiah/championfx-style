@@ -9,13 +9,14 @@
     
     .fx-logo__icon, .fx-logo__icon--light {
         display: block;
-        width: 30px;
-        height: 100%;
+        width: 36px;
+        height: 46px;
     }
     .fx-logo__wordmark, .fx-logo__wordmark--light {
         display: block;
-        width: 90px;
-        margin: 27px 5px 5px;
+        width: 120px;
+        margin-top: 25px;
+        margin-left: 7px;
     }
     @media screen and (max-width: 769px) {
         .fx-logo__wordmark, .fx-logo__wordmark--light {
