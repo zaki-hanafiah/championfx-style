@@ -49,7 +49,7 @@ function navMenuListener() {
 	$('.navbar__nav__toggle').click(function(e) {
 		e.stopPropagation();
 		$(this).next('.navbar__nav__menu').toggleClass('navbar__nav__menu--show');	
-		$(this).parent().siblings().find('.navbar__nav__menu--show').removeClass('navbar__nav__menu--show')
+		$(this).parent().siblings().find('.navbar__nav__menu--show').removeClass('navbar__nav__menu--show');
 	});
 	if ($('.has-accounts').length) {
 		$('#toggle-menu').append(`<div class="account-info">${$('.account-info').html()}</div>`);
