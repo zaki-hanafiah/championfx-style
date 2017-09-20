@@ -4,9 +4,8 @@ main {
   margin: 0 auto;
   max-width: 1000px;
 }
-.title{
-  background-color:#f2f2f2;
-  padding:10px;
+.title {
+  margin: 10px 0 2px;
 }
 .container {
     margin: 0 auto;
@@ -15,41 +14,9 @@ main {
     padding-left: 10px;
     box-sizing: border-box;
 }
-.palette{
+.palette {
   padding: 10px;
   border: 1px solid #000;
-}
-/*Header */
-.dark-blue {
-    background: #15212d;
-}
-#header{
-    background: #004385;
-    border-top: 2px solid #004385;
-    border-bottom: 4px solid #004385;
-    height: 75px;
-}
-.header{
-    background: #2a3052;
-    border-top: 2px solid #394171;
-    border-bottom: 4px solid #e98024;
-    height: 75px;
-}
-#topbar-info div {
-    display: inline-flex;
-    padding: 0 10px;
-}
-[role="tab-content"] .tab-content {
-  display: none;
-}
-#tab-1 {
-  display: block;
-}
-#tabs {
-  margin-top: 2rem;
-}
-.tab-content {
-    font-size: initial;
 }
 .code-sample {
   margin-top: 1rem;
@@ -338,7 +305,6 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {}
 }
 
 .page-content {
-    font-size: 16px;
     flex: 4;
 }
 
@@ -372,6 +338,11 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {}
     .sidebar-left {
         display: none;
     }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 /* Champion */

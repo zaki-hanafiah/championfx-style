@@ -1,0 +1,26 @@
+/** 
+ * Base - Fonts
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$font-stack: 'Montserrat', sans-serif;
+
+// Font sizes
+$font-size-x-small: 10px;
+$font-size-small:   12px;
+$font-size-regular: 16px;
+$font-size-large:   24px;
+$font-size-x-large: 32px;
+
+// Font weights
+$font-weight-light:    300;
+$font-weight-regular:  400;
+$font-weight-semibold: 500;
+$font-weight-bold:     700;
+
+// Base font
+$base-font-family: $font-stack;
+$base-font-size:   $font-size-regular;
+$base-font-weight: $font-weight-regular;
+$base-line-height: 1.5;

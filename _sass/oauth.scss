@@ -6,6 +6,7 @@
     .container {
         margin: 0 auto;
         max-width: 480px;
+        
         #wrapper {
             &.login {
                 margin: 15px auto;
@@ -16,12 +17,14 @@
     #wrapper.login {
         margin: 150px auto;
         max-width: 360px;
+        
         #main-header #logo {
             margin: 0 auto;
         }
     }
     #wrapper.scope-confirms {
         width: 95%;
+        
         .scopes {
             background-color: $fillColor;
             padding: 5px;
@@ -45,6 +48,7 @@
     }
     #main-header {
         margin: 20px 0;
+        
         #logo {
             width: 100%;
             max-width: 250px;
@@ -67,15 +71,13 @@
         text-align: center;
         background: $white;
         padding: 2px 3px;
-        font-size: $FONT_SIZE_S;
+        font-size: $font-size-small;
+        
         &.error-msg {
             border-color: $negativeColor;
         }
     }
-    ::-webkit-input-placeholder,
-    :-moz-placeholder,
-    ::-moz-placeholder,
-    :-ms-input-placeholder {
+    ::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
         font-style: italic;
         color: $secondaryContentColor;
     }

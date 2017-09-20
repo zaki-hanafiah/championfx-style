@@ -1,0 +1,24 @@
+{
+  "name": "champion-style",
+  "version": "1.0.0",
+  "description": "This is the style guide for champion-fx.com, as a fork of the Binary.com style guide",
+  "main": "binary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChampionFX/binary-style.git"
+  },
+  "author": "ChampionFX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChampionFX/binary-style/issues"
+  },
+  "homepage": "https://github.com/ChampionFX/binary-style#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylelint": "^4.0.0",
+    "prettier": "^1.5.3"
+  }
+}

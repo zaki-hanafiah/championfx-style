@@ -1,3 +1,5 @@
+/* stylelint-disable */
+    
 /*! jQuery UI - v1.11.4 - 2016-08-10
 * http://jqueryui.com
 * Includes: core.css, accordion.css, tabs.css
@@ -249,7 +251,7 @@
 }
 
 .ui-datepicker .ui-datepicker-title select {
-    font-size: 1rem;
+    font-size: $font-size-regular;
     margin: 1px 0;
     outline: none;
 }
@@ -265,7 +267,7 @@
 
 .ui-datepicker table {
     width: 100%;
-    font-size: 0.9rem;
+    font-size: $font-size-regular;
     border-collapse: collapse;
     border: 2px solid $fillColor;
     border-top: 0;
@@ -290,7 +292,7 @@
     padding: 0.7em 0;
     width: 14.28%;
     text-align: center;
-    font-weight: 500;
+    font-weight: $font-weight-bold;
     border: 0;
     background: $white;
 }
@@ -314,7 +316,7 @@
     margin: -8px 0;
     padding: 0.25em;
     border: 2px solid $fillColor;
-    border-radius: $BORDER_RADIUS;
+    border-radius: $border-radius;
     height: 32px;
 }
 #ui-datepicker-div.ui-datepicker .ui-datepicker-buttonpane button, #ui-timepicker-div.ui-timepicker .ui-timepicker-table .ui-timepicker-buttonpane button {
@@ -434,6 +436,7 @@
         border-collapse: collapse;
         border-left: 2px solid $fillColor;
         border-bottom: 2px solid $fillColor;
+        font-size: $font-size-regular;
     }
 
     .ui-timepicker-minutes table {
@@ -465,14 +468,13 @@
     padding: 0.1em;
     width: 2.2em;
     background: $white;
-    font-weight: 500;
+    font-weight: $font-weight-bold;
     border: 0;
 }
 /* span for disabled cells */
 .ui-timepicker-table td span {
     display: block;
     padding: 0.2em 0.3em;
-    width: 1.2em;
     text-align: right;
     text-decoration: none;
 }
@@ -480,7 +482,6 @@
 .ui-timepicker-table td a {
     display: block;
     padding: 0.2em 0.3em;
-    width: 1.2em;
     cursor: pointer;
     text-align: right;
     text-decoration: none;
@@ -491,7 +492,7 @@
     margin: -2px 0;
     padding: 0.25em;
     border: 2px solid $fillColor;
-    border-radius: $BORDER_RADIUS;
+    border-radius: $border-radius;
     height: 32px;
 }
 
@@ -517,11 +518,11 @@
 /* Component containers
 ----------------------------------*/
 body .ui-widget {
-    font-family: 'Montserrat',Verdana,Arial,sans-serif;
-    font-size: 1rem;
+    font-family: $font-stack;
+    font-size: $font-size-regular;
 
     .ui-widget {
-        font-size: 1rem;
+        font-size: $font-size-regular;
     }
 }
 
@@ -529,8 +530,8 @@ body .ui-widget {
 .ui-widget button,
 .ui-widget select,
 .ui-widget textarea {
-    font-family: 'Montserrat',Verdana,Arial,sans-serif;
-    font-size: 1rem;
+    font-family: $font-stack;
+    font-size: $font-size-regular;
 }
 
 #ui-datepicker-div {
