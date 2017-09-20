@@ -1,21 +1,18 @@
 /* main menu styling */
 .nav-menu {
-    font-size: $font-size-x-small;
-    
+    font-size: 1rem;
     a {
         color: $contentInverseColor;
     }
     & > li {
         position: relative;
         text-align: center;
-        
         > ul {
             width: 100%;
             background-color: $fillColor;
         }
     }
 }
-
 .main-nav {
     width: 165px;
     border: 1px solid $primaryBrandColor;
@@ -25,17 +22,14 @@
     margin: 0;
     background-color: $primaryBrandColor;
     transition: none !important;
-    
     & > li {
         margin: 0;
         height: 77px;
-        
         a {
             font-weight: normal;
             display: block;
             max-height: 70px;
             margin-top: 3px;
-            
             &:hover {
                 text-decoration: none;
             }
@@ -44,14 +38,11 @@
             margin: 4px 0 0 -1px;
             padding: 0;
             border: 1px solid $borderColor;
-            
             a {
                 color: initial;
-                
                 li {
                     margin-top: 0;
                     padding: 7px 0;
-                    
                     &:hover {
                         background-color: $borderColor;
                     }
@@ -68,7 +59,6 @@
         outline: none;
     }
 }
-
 .nav-caret {
     vertical-align: middle;
     border-top: 4px dashed;
@@ -76,7 +66,6 @@
     border-left: 4px solid transparent;
     display: inline-block;
 }
-
 #all-accounts, #all-accounts-top {
     background-color: $fillColor;
     border: 1px solid $borderColor;
@@ -84,13 +73,11 @@
     opacity: 0;
     visibility: hidden;
     padding-top: 3px;
-    
     & > li a {
         color: $contentColor;
         margin: 0;
     }
 }
-
 #main-logout, #logout-top {
     position: relative;
     height: 75px;
@@ -99,11 +86,9 @@
     float: right;
     margin-left: auto;
 }
-
 .separator-line-thin-gray {
     border-top: 1px solid $borderColor;
 }
-
 #main-account {
     height: 70px;
 }

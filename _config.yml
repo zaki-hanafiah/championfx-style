@@ -1,6 +1,6 @@
-title: ChampionFX Style
+title: Binary Style
 baseurl: ""
-url: "https://style.champion-fx.com"
+url: "https://style.binary.com"
 markdown: kramdown
 sass:
     style: compressed

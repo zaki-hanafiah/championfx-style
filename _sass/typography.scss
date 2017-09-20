@@ -1,54 +1,74 @@
-/** 
- * Typography
- */
-
 h1, h2, h3, h4, li, p, a, span {
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizelegibility;
 }
-
-// Remove top margins from headings
-h1, h2, h3, h4 {
-    margin-top: 0;
+a, a:visited {
     color: $primaryBrandColor;
-    font-weight: $font-weight-regular;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover, &:active {
+        text-decoration: underline;
+    }
 }
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-h4 {
-    font-size: 18px;
-    margin-bottom: 0;
-}
-
-// Reset margins on paragraphs
 p {
-    margin: 10px 0;
+    margin: 1em 0;
+    line-height: 1.4em;
 }
-
-// Reset margins and paddings on lists
-ol, ul {
-    list-style: none;
-    margin: 0 0 0 20px;
-    padding-left: 20px;
-
-    li {
-        margin: 10px 0;
-
-        ol, ul {
-            margin: 0 0 0 20px;
-        }
+.font-n{
+    font-size: $FONT_SIZE_N;
+}
+.font-s{
+    font-size: $FONT_SIZE_S;
+}
+.font-xs{
+    font-size: $FONT_SIZE_XS;
+}
+h1 {
+    color: $primaryBrandColor;
+    font-size: 36px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  	font-weight: 400;
+    a {
+        color: $primaryBrandColor !important;
+    }
+}
+h2 {
+    color: $primaryBrandColor;
+    font-size: 28px;
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+    font-weight: 300;
+    a {
+        color: $primaryBrandColor !important;
+    }
+    em {
+        text-decoration: underline;
+    }
+    &.center {
+        text-align: center;
+        margin: 1.25em auto;
+    }
+}
+h3 {
+    color: $primaryBrandColor;
+    font-size: 22px;
+    font-weight: 300;
+  	margin-top: 1rem;
+    margin-bottom: .6rem;
+    a {
+        color: $primaryBrandColor !important;
+    }
+    &.blue {
+        color: $darkPrimaryBrandColor !important;
+    }
+}
+h4 {
+    color: $primaryBrandColor;
+  	font-size: 18px;
+  	font-weight: 400;
+  	margin-top: 1rem;
+    margin-bottom: .6rem;
+    a {
+        color: $primaryBrandColor !important;
     }
 }

@@ -1,7 +1,3 @@
-/** 
- * Form elements
- */
-
 select, input, textarea {
     font-family: inherit;
     font-size: inherit;
@@ -11,39 +7,38 @@ select, input, textarea {
     color: $contentColor;
     background: $contentInverseColor;
     outline: none;
-    border-radius: $border-radius;
+    border-radius: $BORDER_RADIUS;
     border: 1px solid $secondaryBorderColor;
 }
-
 select, input {
     &.secondary-input {
-        border-radius: $border-radius-100;
+        border-radius: $ROUND_BORDER_RADIUS;
         border: 1px solid $borderColor;
         padding: 5px 10px;
     }
 }
-
 fieldset {
     border: 1px solid $fillColor;
 }
-
-::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
+.hint {
+    font-size: $FONT_SIZE_XS;
+    color: $secondaryContentColor;
+    margin-top: 5px;
+}
+.secondary-hint {
+    @extend .hint;
+    padding-left: 10px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: $secondaryContentColor;
 }
-
-::-moz-placeholder {
-    /* Firefox 19+ */
+::-moz-placeholder { /* Firefox 19+ */
     color: $secondaryContentColor;
 }
-
-:-ms-input-placeholder {
-    /* IE 10+ */
+:-ms-input-placeholder { /* IE 10+ */
     color: $secondaryContentColor;
 }
-
-:-moz-placeholder {
-    /* Firefox 18- */
+:-moz-placeholder { /* Firefox 18- */
     color: $secondaryContentColor;
 }
 
@@ -56,13 +51,13 @@ fieldset {
     border: 1px solid $secondaryBorderColor;
     color: $contentColor;
     background: $contentInverseColor;
-    border-radius: $border-radius;
+    border-radius: $BORDER_RADIUS;
 }
 
 .text-display {
     display: block;
-    font-weight: $font-weight-regular;
+    font-weight: 400;
     border: 1px solid $fillColor;
     padding: 5px 10px;
-    border-radius: $border-radius;
+    border-radius: 5px;
 }
