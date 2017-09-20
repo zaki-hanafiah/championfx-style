@@ -1,7 +1,6 @@
 /*
  * js code for binary style
  */
-
 $(document).ready(function() {
     initSections();
 
