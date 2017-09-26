@@ -1,5 +1,6 @@
 .tabs-container, .has-tabs {
     padding: 0;
+    
     ul.ui-tabs-nav {
         border: none;
         border-radius: 0;
@@ -7,14 +8,16 @@
         margin-left: 0;
         background: none;
         border-bottom: 1px solid $borderColor;
+        
         li {
             border: none;
             list-style-image: none;
             background: $white;
-            border-radius: $BORDER_RADIUS $BORDER_RADIUS 0 0;
+            border-radius: $border-radius $border-radius 0 0;
             margin: 0 2px 0 0;
             padding: 0 10px;
             border-bottom: 3px solid $white;
+            
             a, a:visited {
                 padding: 3px 0 0 !important;
                 font-weight: normal;
@@ -24,11 +27,11 @@
                 background: transparent;
             }
         }
-        li.active,
-        li.ui-tabs-active {
+        li.active, li.ui-tabs-active {
             background: $white;
             color: $primaryBrandColor;
             border-bottom: 3px solid $darkPrimaryBrandColor;
+            
             a {
                 background: none;
                 color: $primaryBrandColor;
@@ -40,48 +43,50 @@
         }
     }
     &.tabs-vertical {
-      &.ui-tabs-vertical .ui-tabs-nav {
-          border: none !important;
-          border-radius: 0;
-          padding: 0;
-          margin-left: 0;
-          background: none;
-          li {
-              list-style-image: none;
-              background: $white;
-              border-radius: $BORDER_RADIUS $BORDER_RADIUS 0 0;
-              margin-top: 5px !important;
-              padding: 0 10px 5px 10px;
-              border-bottom: 3px solid $white;
-              outline: none;
-              width: auto;
-              a, a:visited {
-                  padding: 3px 0 0 !important;
-                  font-weight: normal;
-                  text-decoration: none;
-                  color: $contentColor;
-                  font-size: 90%;
-                  background: transparent;
-              }
-          }
-          li.active,
-          li.ui-tabs-active {
-              background: $white;
-              color: $primaryBrandColor;
-              border-bottom: 3px solid $darkPrimaryBrandColor !important;
-              margin-top: 5px !important;
-              padding-bottom: 5px;
-              width: auto;
-              a {
-                  background: none;
-                  color: $primaryBrandColor;
-                  font-weight: bold;
-                  text-decoration: none;
-                  padding: 0;
-                  outline: none;
-              }
-          }
-      }
+        &.ui-tabs-vertical .ui-tabs-nav {
+            border: none !important;
+            border-radius: 0;
+            padding: 0;
+            margin-left: 0;
+            background: none;
+            
+            li {
+                list-style-image: none;
+                background: $white;
+                border-radius: $border-radius $border-radius 0 0;
+                margin-top: 5px !important;
+                padding: 0 10px 5px;
+                border-bottom: 3px solid $white;
+                outline: none;
+                width: auto;
+                
+                a, a:visited {
+                    padding: 3px 0 0 !important;
+                    font-weight: normal;
+                    text-decoration: none;
+                    color: $contentColor;
+                    font-size: 90%;
+                    background: transparent;
+                }
+            }
+            li.active, li.ui-tabs-active {
+                background: $white;
+                color: $primaryBrandColor;
+                border-bottom: 3px solid $darkPrimaryBrandColor !important;
+                margin-top: 5px !important;
+                padding-bottom: 5px;
+                width: auto;
+                
+                a {
+                    background: none;
+                    color: $primaryBrandColor;
+                    font-weight: bold;
+                    text-decoration: none;
+                    padding: 0;
+                    outline: none;
+                }
+            }
+        }
     }
 }
 

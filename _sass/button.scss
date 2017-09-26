@@ -4,79 +4,89 @@
     line-height: 100%;
     padding: 10px 25px;
     display: inline-block;
-    font-weight: 400;
+    font-weight: $font-weight-regular;
     font-family: inherit;
-    border-radius: $ROUND_BORDER_RADIUS;
+    border-radius: $border-radius-100;
     box-shadow: $z-depth-1;
-  	transition: box-shadow .25s;
+    transition: box-shadow 0.25s;
     outline: none;
-    &:active,
-    &:hover {
+    
+    &:active, &:hover {
         text-decoration: none;
-		    box-shadow: $z-depth-1-half;
-	      transition: box-shadow .25s;
+        box-shadow: $z-depth-1-half;
+        transition: box-shadow 0.25s;
     }
 }
+
 button {
     @include link-button;
     cursor: pointer;
-    font-size: $FONT_SIZE_N;
+    font-size: $font-size-regular;
     border: 0;
     background: $darkPrimaryBrandColor;
     color: $contentInverseColor;
+    
     &:visited {
         color: $contentInverseColor;
     }
-    &:active,
-    &:hover {
+    &:active, &:hover {
         background-color: $primaryBrandColor;
     }
     &.button-secondary {
         background: $fillColor;
         color: $contentColor;
+        
         &:active, &:hover, &:visited {
             background-color: $borderColor;
         }
     }
 }
+
 .button {
     cursor: pointer;
     margin-bottom: 0.5em;
+    
     span {
         @include link-button;
         overflow: visible;
         border: 0;
         color: $contentInverseColor;
         background: $darkPrimaryBrandColor;
+        
         &:hover {
             background-color: $primaryBrandColor;
         }
-        &visited{
+        &visited {
             color: $contentInverseColor;
         }
     }
 }
+
 .button-secondary {
     cursor: pointer;
     margin-bottom: 0.5em;
+    
     span {
         @include link-button;
         overflow: visible;
         border: 0;
         color: $primaryBrandColor;
         background: $white;
-        border-radius: $ROUND_BORDER_RADIUS;
+        border-radius: $border-radius-100;
+        
         &:hover {
             text-decoration: none;
             background: $fillColor;
         }
     }
 }
+
 .button-disabled {
     cursor: pointer;
     margin-bottom: 0.5em;
-  	border-radius: $ROUND_BORDER_RADIUS;
-  	box-shadow: none!important;
+    border-radius: $border-radius-100;
+    box-shadow: none !important;
+    
     span {
         @include link-button;
         overflow: visible;
@@ -85,9 +95,9 @@ button {
         color: $borderColor;
         background: $fillColor;
         cursor: default;
-		    box-shadow: none!important;
-        &:active,
-        &:hover {
+        box-shadow: none !important;
+        
+        &:active, &:hover {
             color: $borderColor;
             background: $fillColor;
         }

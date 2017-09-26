@@ -1,0 +1,72 @@
+/** 
+ * Lists
+ */
+ 
+.reset_ol {
+    counter-reset: item;
+    
+    li {
+        display: block;
+    }
+    li:before {
+        content: counters(item, '.') '. ';
+        counter-increment: item;
+    }
+}
+
+// Unordered list
+ul.bullet > li {
+    list-style-image: svg-url('<svg width="12px" height="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path fill="#{rgba($primaryBrandColor, 1)}" d="M12,17.5A5.5,5.5,0,1,1,17.5,12,5.507,5.507,0,0,1,12,17.5"/></svg>');
+}
+
+ul.checked > li {
+    list-style-image: svg-url('<svg width="12px" height="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon fill="#{rgba($secondaryBrandColor, 1)}" points="8.308 22.298 0.399 14.39 3.934 10.854 8.308 15.228 20.066 3.47 23.601 7.005 8.308 22.298"/></svg>');
+}
+
+// Ordered lists
+ol {
+    counter-reset: item1;
+}
+
+ol li {
+    list-style-type: decimal;
+    list-style-image: none;
+    display: block;
+    position: relative;
+}
+
+ol li:before {
+    content: counter(item1)'.';
+    counter-increment: item1;
+    position: absolute;
+    margin-right: 100%;
+    right: 1rem; // space between number and text
+}
+
+// Multi-level ordered list
+ol ol {
+    counter-reset: item2;
+}
+
+ol ol li:before {
+    content: counter(item1)'.'counter(item2)'.';
+    counter-increment: item2;
+}
+
+ol ol ol {
+    counter-reset: item3;
+}
+
+ol ol ol li:before {
+    content: counter(item1)'.'counter(item2)'.'counter(item3)'.';
+    counter-increment: item3;
+}
+
+ol ol ol ol {
+    counter-reset: item4;
+}
+
+ol ol ol ol li:before {
+    content: counter(item1)'.'counter(item2)'.'counter(item3)'.'counter(item4)'.';
+    counter-increment: item4;
+}
