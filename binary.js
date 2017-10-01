@@ -56,18 +56,18 @@ function navMenuListener() {
 	if ($('.has-accounts').length) {
 		$('#toggle-menu').append(`<div class="account-info">${$('.account-info').html()}</div>`);
 	}
-}
+  
+  $('.navbar__nav__menu li').hover(
+      function() {
+          $(this).children('li ul').addClass('navbar__nav__menu--show');
+      },
+      function() {
+          $(this).children('li ul').removeClass('navbar__nav__menu--show');
+      });
 
-$('.navbar__nav__menu li').hover(
-    function() {
-        $(this).children('li ul').addClass('navbar__nav__menu--show');
-    },
-    function() {
-        $(this).children('li ul').removeClass('navbar__nav__menu--show');
-    });
-
-function isTouchDevice() {
-    return 'ontouchstart' in document.documentElement;
+  function isTouchDevice() {
+      return 'ontouchstart' in document.documentElement;
+  }
 }
 
 function topNavMenuListener() {
