@@ -52,20 +52,19 @@ function navMenuListener() {
       		$(this).next('.navbar__nav__menu').toggleClass('navbar__nav__menu--show');
       		$(this).parent().siblings().find('.navbar__nav__menu--show').removeClass('navbar__nav__menu--show');
       }
-      else {
-          $('.navbar__nav__menu li').hover(
-              function() {
-                  $(this).children('li ul').addClass('navbar__nav__menu--show');
-              },
-              function() {
-                  $(this).children('li ul').removeClass('navbar__nav__menu--show');
-              });
-      }
 	});
 	if ($('.has-accounts').length) {
 		$('#toggle-menu').append(`<div class="account-info">${$('.account-info').html()}</div>`);
 	}
 }
+
+$('.navbar__nav__menu li').hover(
+    function() {
+        $(this).children('li ul').addClass('navbar__nav__menu--show');
+    },
+    function() {
+        $(this).children('li ul').removeClass('navbar__nav__menu--show');
+    });
 
 function isTouchDevice() {
     return 'ontouchstart' in document.documentElement;
