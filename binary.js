@@ -50,6 +50,7 @@ function navMenuListener() {
 		  $('#toggle-menu').append(`<div class="account-info">${$('.account-info').html()}</div>`);
 	}
 
+  // used to detect touch events, if false, use hover for menu dropdown
   if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
       $('.navbar__nav__toggle').click(function(e) {
           e.stopPropagation();
