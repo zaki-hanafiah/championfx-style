@@ -51,7 +51,7 @@ function navMenuListener() {
   	}
 
     // used to detect touch events, if false, use hover for menu dropdown
-    if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+    if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch || navigator.msMaxTouchPoints || navigator.maxTouchPoints ) {
         $('.navbar__nav__toggle').click(function(e) {
             e.stopPropagation();
             $(this).next('.navbar__nav__menu').toggleClass('navbar__nav__menu--show');
